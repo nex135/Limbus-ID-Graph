@@ -27,6 +27,30 @@ const chartOptions = {
   scales: {
     y: {
       beginAtZero: true,
+      grid: {
+        color: 'rgba(255, 255, 255, 0.1)',
+      },
+      ticks: {
+        color: 'rgba(255, 255, 255, 0.7)',
+      },
+    },
+    x: {
+      grid: {
+        color: 'rgba(255, 255, 255, 0.1)',
+      },
+      ticks: {
+        color: 'rgba(255, 255, 255, 0.7)',
+      },
+    },
+  },
+  plugins: {
+    legend: {
+      labels: {
+        color: 'rgba(255, 255, 255, 0.7)',
+      },
+    },
+    tooltip: {
+      backgroundColor: 'rgba(0, 0, 0, 0.8)',
     },
   },
 };
@@ -78,33 +102,46 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
         display: 'flex',
         flexDirection: 'column',
         gap: 2,
+        height: '100%',
+        overflow: 'hidden',
       }}
     >
       {selectedCharacter && (
-        <ToggleButtonGroup
-          value={variant}
-          exclusive
-          onChange={handleVariantChange}
-          aria-label="variant selection"
-        >
-          <ToggleButton 
-            value="adverse" 
-            aria-label="adverse"
-            disabled={!!(sinnerData && !sinnerData.has_weak)}
+        <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
+          <ToggleButtonGroup
+            value={variant}
+            exclusive
+            onChange={handleVariantChange}
+            aria-label="variant selection"
+            sx={{
+              '& .MuiToggleButton-root': {
+                color: 'rgba(255, 255, 255, 0.7)',
+                '&.Mui-selected': {
+                  color: 'white',
+                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                },
+              },
+            }}
           >
-            Adverse
-          </ToggleButton>
-          <ToggleButton value="expected" aria-label="expected">
-            Expected
-          </ToggleButton>
-          <ToggleButton 
-            value="prime" 
-            aria-label="prime"
-            disabled={!!(sinnerData && !sinnerData.has_prime)}
-          >
-            Prime
-          </ToggleButton>
-        </ToggleButtonGroup>
+            <ToggleButton 
+              value="adverse" 
+              aria-label="adverse"
+              disabled={!!(sinnerData && !sinnerData.has_weak)}
+            >
+              Adverse
+            </ToggleButton>
+            <ToggleButton value="expected" aria-label="expected">
+              Expected
+            </ToggleButton>
+            <ToggleButton 
+              value="prime" 
+              aria-label="prime"
+              disabled={!!(sinnerData && !sinnerData.has_prime)}
+            >
+              Prime
+            </ToggleButton>
+          </ToggleButtonGroup>
+        </Box>
       )}
       
       <Paper
@@ -114,17 +151,18 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: 'rgba(0, 0, 0, 0.1)',
+          backgroundColor: 'background.paper',
+          overflow: 'hidden',
         }}
       >
         {error ? (
           <Typography color="error">{error}</Typography>
         ) : selectedCharacter && chartData ? (
-          <Box sx={{ width: '100%', height: '100%' }}>
+          <Box sx={{ width: '100%', height: '100%', position: 'relative' }}>
             <Bar options={chartOptions} data={chartData} />
           </Box>
         ) : (
-          <Typography variant="h5">
+          <Typography variant="h5" sx={{ color: 'text.secondary' }}>
             Select a character to view their statistics
           </Typography>
         )}

@@ -19,7 +19,7 @@ const characters = [
   'Sinclair',
   'Outis',
   'Gregor'
-]
+].sort()
 
 const DRAWER_WIDTH = 240
 
@@ -33,11 +33,13 @@ const Sidebar = ({ selectedCharacter, onCharacterSelect }: SidebarProps) => {
         '& .MuiDrawer-paper': {
           width: DRAWER_WIDTH,
           boxSizing: 'border-box',
+          backgroundColor: 'background.paper',
+          borderRight: '1px solid rgba(255, 255, 255, 0.12)',
         },
       }}
     >
       <Box sx={{ overflow: 'auto', mt: 8 }}>
-        <Typography variant="h6" sx={{ p: 2 }}>
+        <Typography variant="h6" sx={{ p: 2, color: 'text.primary' }}>
           Characters
         </Typography>
         <List>
@@ -46,8 +48,23 @@ const Sidebar = ({ selectedCharacter, onCharacterSelect }: SidebarProps) => {
               <ListItemButton
                 selected={character === selectedCharacter}
                 onClick={() => onCharacterSelect(character)}
+                sx={{
+                  '&.Mui-selected': {
+                    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+                    '&:hover': {
+                      backgroundColor: 'rgba(255, 255, 255, 0.12)',
+                    },
+                  },
+                }}
               >
-                <ListItemText primary={character} />
+                <ListItemText 
+                  primary={character} 
+                  sx={{ 
+                    '.MuiListItemText-primary': { 
+                      color: character === selectedCharacter ? 'primary.main' : 'text.primary',
+                    },
+                  }}
+                />
               </ListItemButton>
             </ListItem>
           ))}

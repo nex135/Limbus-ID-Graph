@@ -7,6 +7,23 @@ import GraphView from './components/GraphView'
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
+    background: {
+      default: '#121212',
+      paper: '#1e1e1e',
+    },
+  },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          margin: 0,
+          padding: 0,
+          minHeight: '100vh',
+          width: '100vw',
+          overflow: 'hidden',
+        },
+      },
+    },
   },
 })
 
@@ -16,9 +33,25 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+      <Box 
+        sx={{ 
+          display: 'flex', 
+          flexDirection: 'column', 
+          height: '100vh',
+          width: '100vw',
+          overflow: 'hidden',
+          bgcolor: 'background.default',
+        }}
+      >
         <Header />
-        <Box sx={{ display: 'flex', flexGrow: 1, overflow: 'hidden' }}>
+        <Box 
+          sx={{ 
+            display: 'flex', 
+            flexGrow: 1, 
+            overflow: 'hidden',
+            position: 'relative',
+          }}
+        >
           <Sidebar
             selectedCharacter={selectedCharacter}
             onCharacterSelect={setSelectedCharacter}

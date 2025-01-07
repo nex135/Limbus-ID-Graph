@@ -1,0 +1,102 @@
+!!python/object:sinner.Sinner
+name: meursault_bl_ut4
+skills:
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: draw_of_the_sword
+  stats:
+  - 3
+  - 4
+  - 2
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: acupuncture
+  stats:
+  - 3
+  - 5
+  - 3
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: minus
+  name: yield_my_flesh
+  stats:
+  - 12
+  - 8
+  - 1
+  - 0
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0

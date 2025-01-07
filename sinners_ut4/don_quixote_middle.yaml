@@ -1,0 +1,102 @@
+!!python/object:sinner.Sinner
+name: don_quixote_middle_ut4
+skills:
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: checking_the_book
+  stats:
+  - 4
+  - 3
+  - 2
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 1
+  - 1
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 1
+  - 1
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: proof_of_loyalty
+  stats:
+  - 4
+  - 6
+  - 2
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 1
+  - 1
+  - 0
+  - 8
+  prime_damage_bonuses:
+  - 1
+  - 1
+  - 0
+  - 8
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: a_just_vengeance
+  stats:
+  - 4
+  - 3
+  - 4
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 1
+  - 1
+  - 0
+  - 8
+  prime_damage_bonuses:
+  - 1
+  - 1
+  - 0
+  - 8
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0

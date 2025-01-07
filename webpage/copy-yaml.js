@@ -15,10 +15,11 @@ if (!existsSync(targetDir)) {
 
 // Copy all YAML files
 readdirSync(sourceDir).forEach(file => {
-  if (file.endsWith('.yml')) {
+  if (file.endsWith('.yml') || file.endsWith('.yaml')) {
     copyFileSync(
       join(sourceDir, file),
       join(targetDir, file)
     );
+    console.log(`Copied ${file} to public directory`);
   }
 }); 

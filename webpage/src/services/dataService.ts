@@ -19,15 +19,22 @@ export interface Sinner {
 }
 
 export const loadSinnerData = async (name: string): Promise<Sinner> => {
-  try {
-    const response = await fetch(`/sinners_ut4/${name}.yml`);
-    const text = await response.text();
-    const data = yaml.load(text) as Sinner;
-    return data;
-  } catch (error) {
-    console.error('Error loading sinner data:', error);
-    throw error;
-  }
+  const tryExtensions = async () => {
+    for (const ext of ['.yml', '.yaml']) {
+      try {
+        const response = await fetch(`/Limbus-ID-Graph/sinners_ut4/${name}${ext}`);
+        if (response.ok) {
+          const text = await response.text();
+          return yaml.load(text) as Sinner;
+        }
+      } catch (error) {
+        console.error(`Error loading sinner data with ${ext}:`, error);
+      }
+    }
+    throw new Error(`Could not load data for ${name} with any extension`);
+  };
+
+  return tryExtensions();
 };
 
 export const generateChartData = (sinner: Sinner, variant: 'adverse' | 'expected' | 'prime') => {

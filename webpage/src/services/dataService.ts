@@ -22,7 +22,7 @@ export const loadSinnerData = async (name: string): Promise<Sinner> => {
   const tryExtensions = async () => {
     for (const ext of ['.yml', '.yaml']) {
       try {
-        const response = await fetch(`/Limbus-ID-Graph/sinners_ut4/${name}${ext}`);
+        const response = await fetch(`/sinners_ut4/${name}${ext}`);
         if (response.ok) {
           const text = await response.text();
           return yaml.load(text) as Sinner;

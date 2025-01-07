@@ -1,0 +1,30 @@
+name: Yi Sang
+has_weak: true
+has_prime: true
+competitor_count: 12
+elite_bias_score_matrix:
+  - [70, 85, 65, 80] # adverse
+  - [75, 90, 70, 85] # expected
+  - [80, 95, 75, 90] # prime
+elite_bias_rank_matrix:
+  - [5, 3, 6, 4]
+  - [4, 2, 5, 3]
+  - [3, 1, 4, 2]
+full_deck_score_matrix:
+  - [65, 80, 60, 75] # adverse
+  - [70, 85, 65, 80] # expected
+  - [75, 90, 70, 85] # prime
+full_deck_rank_matrix:
+  - [6, 4, 7, 5]
+  - [5, 3, 6, 4]
+  - [4, 2, 5, 3]
+skills:
+  - name: Skill 1
+    score_matrix:
+      - [75, 85, 70, 80, 90]
+      - [80, 90, 75, 85, 95]
+      - [85, 95, 80, 90, 100]
+    rank_matrix:
+      - [4, 3, 5, 4, 2]
+      - [3, 2, 4, 3, 1]
+      - [2, 1, 3, 2, 1] 

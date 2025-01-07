@@ -1,0 +1,102 @@
+!!python/object:sinner.Sinner
+name: outis_magic_bullet_ut4
+skills:
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: ignition
+  stats:
+  - 3
+  - 4
+  - 2
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 3
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 3
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: detonate_magic_bullet
+  stats:
+  - 4
+  - 6
+  - 2
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 3
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 3
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: magic_bullet_fire
+  stats:
+  - 15
+  - 4
+  - 1
+  - 5
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 15
+  - 6
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 15
+  - 6
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0

@@ -1,47 +1,14 @@
 !!python/object:sinner.Sinner
-name: meursault_r_corp_ut4
+name: faust_butler_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: weighty_bash
+  name: confiscation
   stats:
-  - 6
-  - 6
-  - 1
-  - -3
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 1
-  - 0
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 1
-  - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0 
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: demolish
-  stats:
-  - 5
   - 3
-  - 3
-  - -3
+  - 4
+  - 2
+  - 1
   damage_bonuses:
   - 0
   - 0
@@ -49,12 +16,12 @@ skills:
   - 0
   prime_bonuses:
   - 0
-  - 0
+  - 1
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -69,12 +36,44 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: rhino_ram
+  name: interloper_reception
   stats:
-  - 6
-  - 3
-  - 3
-  - -3
+  - 4
+  - 2
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 1
+  - 1
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: reception_arts_4_heartseal
+  stats:
+  - 4
+  - 2
+  - 4
+  - 4
   damage_bonuses:
   - 0
   - 0
@@ -87,8 +86,8 @@ skills:
   - 0
   prime_damage_bonuses:
   - 0
-  - 2
   - 0
+  - 2
   - 0
   weak_bonuses:
   - 0

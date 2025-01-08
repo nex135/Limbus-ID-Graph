@@ -15,20 +15,20 @@ skills:
   - 0
   - 0
   prime_bonuses:
-  - 0
+  - 1
   - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - 0
+  - 1
   - 0
   - 0
   - 0
   weak_bonuses:
-  - -1
   - 0
   - 0
   - 0
+  - 0 
   weak_damage_bonuses:
   - 0
   - 0
@@ -82,17 +82,17 @@ skills:
   - 0
   prime_bonuses:
   - 0
-  - 0
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 0
+  - 2
   - 0
   - 0
   weak_bonuses:
   - 0
-  - -1
+  - 0
   - 0
   - 0
   weak_damage_bonuses:

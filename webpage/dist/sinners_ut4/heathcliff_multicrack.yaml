@@ -1,14 +1,14 @@
 !!python/object:sinner.Sinner
-name: meursault_r_corp_ut4
+name: heathcliff_multicrack_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: weighty_bash
+  name: 40s-2_activation
   stats:
-  - 6
-  - 6
-  - 1
-  - -3
+  - 3
+  - 4
+  - 2
+  - 0
   damage_bonuses:
   - 0
   - 0
@@ -16,19 +16,19 @@ skills:
   - 0
   prime_bonuses:
   - 1
-  - 0
+  - 1
   - 0
   - 0
   prime_damage_bonuses:
-  - 1
   - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
   - 0
   - 0
   - 0
-  - 0 
+  - 0
   weak_damage_bonuses:
   - 0
   - 0
@@ -36,52 +36,52 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: demolish
+  name: photoelectric_mark
+  stats:
+  - 4
+  - 3
+  - 3
+  - 1
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 1
+  - 2
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 2
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: photoelectric_harpoon
   stats:
   - 5
-  - 3
-  - 3
-  - -3
+  - 2
+  - 4
+  - 1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: rhino_ram
-  stats:
-  - 6
-  - 3
-  - 3
-  - -3
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
+  - 1
   - 2
   - 0
   - 0

@@ -1,26 +1,26 @@
 !!python/object:sinner.Sinner
-name: meursault_r_corp_ut4
+name: faust_regret_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: weighty_bash
+  name: contracting_strait-jacket
   stats:
-  - 6
-  - 6
+  - 4
+  - 7
   - 1
-  - -3
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 0
   - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - 1
+  - 0
   - 0
   - 0
   - 0
@@ -28,7 +28,7 @@ skills:
   - 0
   - 0
   - 0
-  - 0 
+  - 0
   weak_damage_bonuses:
   - 0
   - 0
@@ -36,12 +36,45 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: demolish
+  name: metallic_ringing
   stats:
+  - 4
+  - 4
+  - 3
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: unleashed_violence
+  stats:
+  - 3
   - 5
   - 3
   - 3
-  - -3
   damage_bonuses:
   - 0
   - 0
@@ -55,39 +88,6 @@ skills:
   prime_damage_bonuses:
   - 0
   - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: rhino_ram
-  stats:
-  - 6
-  - 3
-  - 3
-  - -3
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
-  - 2
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 2
   - 0
   - 0
   weak_bonuses:

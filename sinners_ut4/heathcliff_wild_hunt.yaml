@@ -1,12 +1,12 @@
 !!python/object:sinner.Sinner
-name: ishmael_liu_ut4
+name: heathcliff_wild_hunt_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: red_kick
+  name: beheading
   stats:
-  - 4
   - 3
+  - 4
   - 2
   - 2
   damage_bonuses:
@@ -15,15 +15,15 @@ skills:
   - 0
   - 0
   prime_bonuses:
-  - 0
+  - 3
   - 2
   - 0
-  - 0
+  - 3
   prime_damage_bonuses:
+  - 3
+  - 2
   - 0
-  - 0
-  - 0
-  - 0
+  - 3
   weak_bonuses:
   - 0
   - 0
@@ -36,27 +36,27 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: frontal_assault
+  name: memorial_procession
   stats:
-  - 4
-  - 4
+  - 5
   - 3
-  - 2
+  - 3
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 2
+  - 2
+  - 0
+  - 3
+  prime_damage_bonuses:
   - 0
   - 2
   - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
+  - 3
   weak_bonuses:
   - 0
   - 0
@@ -69,27 +69,88 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: inner_gate_elbow_strike
+  name: requiem
   stats:
-  - 3
-  - 3
-  - 4
+  - 6
+  - 6
   - 2
+  - 5
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 3
+  prime_bonuses:
+  - 2
+  - 4
+  - 0
+  - 3
+  prime_damage_bonuses:
+  - 0
+  - 4
+  - 0
+  - 3
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: minus
+  name: lament_mourn_despair
+  stats:
+  - 5
+  - 13
+  - 2
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 6
+  - 0
+  - 0
+  - 3
+  prime_damage_bonuses:
+  - 4
+  - 0
+  - 0
+  - 3
+  weak_bonuses:
   - 0
   - 0
   - 0
   - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: o_dullahan
+  stats:
+  - 5
+  - 4
+  - 2
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 2
+  - 2
+  - 0 
+  - 3
   prime_damage_bonuses:
   - 0
+  - 2
   - 0
-  - 0
-  - 0
+  - 3
   weak_bonuses:
   - 0
   - 0

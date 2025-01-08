@@ -1,27 +1,27 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: gregor_twinhook_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: negotiation_start
   stats:
   - 4
   - 3
   - 2
-  - 4
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 0
   - 1
-  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -36,25 +36,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: unilateral_business
   stats:
-  - 5
-  - 5
-  - 2
   - 4
+  - 6
+  - 2
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
   - 0
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 2
   - 0
   - 0
   weak_bonuses:
@@ -69,25 +69,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: foregone_conclusion
   stats:
-  - 6
+  - 4
   - 6
   - 2
-  - 4
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 0
   - 3
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 3
   - 0
   - 0
   weak_bonuses:

@@ -1,26 +1,26 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: don_quixote_lantern_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: i_shall_nibble_thee
   stats:
-  - 4
-  - 3
-  - 2
-  - 4
+  - 5
+  - 7
+  - 1
+  - -1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 2
+  - 0
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -36,25 +36,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: flashing_lure
   stats:
-  - 5
-  - 5
-  - 2
   - 4
+  - 3
+  - 3
+  - -1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 0
   - 1
   - 0
   - 0
-  - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -69,25 +69,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: whirlwind_om-nom-nom!
   stats:
-  - 6
-  - 6
-  - 2
   - 4
+  - 3
+  - 3
+  - 1
   damage_bonuses:
   - 0
   - 0
-  - 0
+  - 1
   - 0
   prime_bonuses:
+  - 0
   - 1
-  - 3
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 1
   - 0
   - 0
   weak_bonuses:

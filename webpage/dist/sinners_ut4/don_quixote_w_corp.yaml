@@ -1,32 +1,32 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: don_quixote_w_corp_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: rip
   stats:
-  - 4
+  - 5
+  - 8
+  - 1
   - 3
-  - 2
-  - 4
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 2
+  - 0
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
   weak_bonuses:
   - 0
-  - 0
+  - -2
   - 0
   - 0
   weak_damage_bonuses:
@@ -36,30 +36,30 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: leap
   stats:
-  - 5
-  - 5
-  - 2
   - 4
+  - 5
+  - 3
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 0
   - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
   weak_bonuses:
   - 0
-  - 0
+  - -1
   - 0
   - 0
   weak_damage_bonuses:
@@ -69,30 +69,30 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: rip_space
   stats:
+  - 1
   - 6
-  - 6
-  - 2
-  - 4
+  - 5
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 3
+  - 0
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
   weak_bonuses:
   - 0
-  - 0
+  - -4
   - 0
   - 0
   weak_damage_bonuses:

@@ -1,26 +1,26 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: rodion_lccb_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: bludgeon
   stats:
-  - 4
-  - 3
-  - 2
-  - 4
+  - 5
+  - 6
+  - 1
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 0
   - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -36,24 +36,24 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: thrust
   stats:
-  - 5
-  - 5
+  - 6
+  - 1
   - 2
-  - 4
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
   - 0
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -69,30 +69,30 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: suppress
   stats:
-  - 6
-  - 6
+  - 7
+  - 5
   - 2
-  - 4
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 3
+  - 0
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
   weak_bonuses:
   - 0
-  - 0
+  - -3
   - 0
   - 0
   weak_damage_bonuses:

@@ -1,27 +1,27 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: faust_seven_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: predictive_analysis
   stats:
   - 4
   - 3
   - 2
-  - 4
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 0
   - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 2
   - 0
   - 0
   weak_bonuses:
@@ -36,25 +36,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: dissect_target
   stats:
-  - 5
-  - 5
-  - 2
   - 4
+  - 4
+  - 3
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
   - 0
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 2
   - 0
   - 0
   weak_bonuses:
@@ -69,24 +69,24 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: profiling
   stats:
-  - 6
-  - 6
-  - 2
+  - 5
   - 4
+  - 3
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 3
+  - 0
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0

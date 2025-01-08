@@ -1,14 +1,14 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: meursault_rosespanner_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: saddled_tasks
   stats:
   - 4
-  - 3
-  - 2
-  - 4
+  - 6
+  - 1
+  - 1
   damage_bonuses:
   - 0
   - 0
@@ -36,19 +36,19 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: forced_break
   stats:
   - 5
-  - 5
-  - 2
   - 4
+  - 2
+  - 1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 2
   - 0
   - 0
   - 0
@@ -69,12 +69,12 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: finishing_runup
   stats:
-  - 6
-  - 6
+  - 4
   - 2
   - 4
+  - 1
   damage_bonuses:
   - 0
   - 0
@@ -82,7 +82,7 @@ skills:
   - 0
   prime_bonuses:
   - 1
-  - 3
+  - 1
   - 0
   - 0
   prime_damage_bonuses:

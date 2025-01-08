@@ -1,32 +1,32 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: yi_sang_blade_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: strikers_stance
   stats:
-  - 4
-  - 3
-  - 2
-  - 4
+  - 6
+  - 8
+  - 1
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 0
   - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
   weak_bonuses:
   - 0
-  - 0
+  - -1
   - 0
   - 0
   weak_damage_bonuses:
@@ -36,30 +36,30 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: heel_turn
   stats:
-  - 5
-  - 5
+  - 7
+  - 3
   - 2
-  - 4
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
   - 0
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
   weak_bonuses:
   - 0
-  - 0
+  - -1
   - 0
   - 0
   weak_damage_bonuses:
@@ -69,30 +69,30 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: flank_thrust
   stats:
-  - 6
-  - 6
-  - 2
-  - 4
+  - 8
+  - 3
+  - 3
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 3
+  - 0
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
   weak_bonuses:
   - 0
-  - 0
+  - -1
   - 0
   - 0
   weak_damage_bonuses:

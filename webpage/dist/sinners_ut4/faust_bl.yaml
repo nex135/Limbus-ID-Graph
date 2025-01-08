@@ -1,27 +1,27 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: faust_bl_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: moonlit_blade_dance
   stats:
-  - 4
   - 3
   - 2
-  - 4
+  - 3
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 0
   - 1
-  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -36,25 +36,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: acupuncture
   stats:
-  - 5
-  - 5
-  - 2
   - 4
+  - 6
+  - 2
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 0
   - 1
   - 0
   - 0
-  - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -69,25 +69,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: red_plum_blossoms_scatter
   stats:
-  - 6
+  - 5
   - 6
   - 2
-  - 4
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 0
   - 3
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 3
   - 0
   - 0
   weak_bonuses:

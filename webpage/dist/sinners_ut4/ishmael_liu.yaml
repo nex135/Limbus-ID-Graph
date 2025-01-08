@@ -1,26 +1,26 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: ishmael_liu_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: red_kick
   stats:
   - 4
   - 3
   - 2
-  - 4
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 2
+  - 0
+  - 3
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -36,24 +36,24 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: frontal_assault
   stats:
-  - 5
-  - 5
-  - 2
   - 4
+  - 4
+  - 3
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
   - 0
+  - 3
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -69,24 +69,24 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: inner_gate_elbow_strike
   stats:
-  - 6
-  - 6
-  - 2
+  - 3
+  - 3
   - 4
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 0
   - 1
-  - 3
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0

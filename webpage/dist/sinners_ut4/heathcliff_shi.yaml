@@ -1,26 +1,26 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: heathcliff_shi_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: extreme_edge
   stats:
   - 4
-  - 3
-  - 2
-  - 4
+  - 6
+  - 1
+  - 1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
   - 2
   - 0
   - 0
+  - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -36,24 +36,24 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: flying_sword
   stats:
   - 5
-  - 5
-  - 2
-  - 4
+  - 10
+  - 1
+  - 1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 2
   - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -69,24 +69,24 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: flashing_strike
   stats:
-  - 6
+  - 5
   - 6
   - 2
-  - 4
+  - 1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 3
+  - 2
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0

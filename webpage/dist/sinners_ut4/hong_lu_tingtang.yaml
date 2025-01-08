@@ -1,26 +1,26 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: hong_lu_tingtang_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: throat_slit
   stats:
-  - 4
+  - 5
+  - 8
+  - 1
   - 3
-  - 2
-  - 4
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 2
+  - 0
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -36,26 +36,26 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: jag
   stats:
+  - 3
   - 5
-  - 5
-  - 2
-  - 4
+  - 3
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 0
   - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
   - 0
+  - 1
   - 0
   weak_bonuses:
   - 0
@@ -69,24 +69,24 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: mutilate
   stats:
-  - 6
-  - 6
-  - 2
-  - 4
+  - 5
+  - 25
+  - 1
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 3
+  - 0
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0

@@ -1,26 +1,26 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: sinclair_n_corp_ut4
 skills:
 - !!python/object:skill.Skill
-  coin_type: plus
-  name: remise
+  coin_type: minus
+  name: coerced_judgement
   stats:
   - 4
-  - 3
   - 2
-  - 4
+  - 2
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
   - 2
   - 0
   - 0
+  - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -35,25 +35,25 @@ skills:
   - 0
   - 0
 - !!python/object:skill.Skill
-  coin_type: plus
-  name: fleche
+  coin_type: minus
+  name: amoral_enactment
   stats:
-  - 5
-  - 5
-  - 2
+  - 0
   - 4
+  - 4
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
+  - 2
   - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0
@@ -68,25 +68,25 @@ skills:
   - 0
   - 0
 - !!python/object:skill.Skill
-  coin_type: plus
-  name: salut
+  coin_type: minus
+  name: self_destructive_purge
   stats:
-  - 6
-  - 6
-  - 2
-  - 4
+  - -6
+  - 12
+  - 3
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 3
+  - 2
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
+  - 0
   - 0
   - 0
   - 0

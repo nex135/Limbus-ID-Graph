@@ -1,27 +1,27 @@
 !!python/object:sinner.Sinner
-name: don_quixote_cinq_ut4
+name: ryoshu_lccb_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: remise
+  name: shove
   stats:
-  - 4
-  - 3
-  - 2
-  - 4
+  - 5
+  - 5
+  - 1
+  - 1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 0
   - 1
-  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -36,25 +36,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: fleche
+  name: target_neutralization
   stats:
-  - 5
+  - 4
   - 5
   - 2
-  - 4
+  - 1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 0
   - 1
   - 0
   - 0
-  - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -69,25 +69,25 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: salut
+  name: obliteration_of_forehead
   stats:
-  - 6
-  - 6
-  - 2
   - 4
+  - 3
+  - 3
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 1
-  - 3
+  - 0
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - -1
   - 0
+  - 2
   - 0
   - 0
   weak_bonuses:

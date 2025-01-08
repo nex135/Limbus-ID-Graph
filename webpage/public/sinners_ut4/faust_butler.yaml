@@ -39,8 +39,8 @@ skills:
   name: interloper_reception
   stats:
   - 4
+  - 5
   - 2
-  - 3
   - 2
   damage_bonuses:
   - 0

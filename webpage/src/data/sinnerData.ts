@@ -1727,8 +1727,8 @@ export const sinnerData: SinnerData = {
         "coin_type": "plus",
         "stats": [
           4,
+          5,
           2,
-          3,
           2
         ],
         "damage_bonuses": [

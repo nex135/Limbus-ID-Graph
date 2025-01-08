@@ -1728,7 +1728,7 @@ export const sinnerData: SinnerData = {
         "stats": [
           4,
           2,
-          2,
+          3,
           2
         ],
         "damage_bonuses": [

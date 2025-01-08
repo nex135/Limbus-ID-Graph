@@ -1,77 +1,45 @@
-import { Box, Drawer, List, ListItem, ListItemButton, ListItemText, Typography } from '@mui/material'
+import { Box, List, ListItem, ListItemButton, ListItemText, Paper, Typography } from '@mui/material';
+import { getAvailableCharacters } from '../services/dataService';
 
 interface SidebarProps {
-  selectedCharacter: string | null
-  onCharacterSelect: (character: string) => void
+  selectedCharacter: string | null;
+  onCharacterSelect: (character: string) => void;
 }
-
-// Placeholder data - replace with actual character data later
-const characters = [
-  'Yi Sang',
-  'Faust',
-  'Don Quixote',
-  'Ryōshū',
-  'Meursault',
-  'Hong Lu',
-  'Heathcliff',
-  'Ishmael',
-  'Rodion',
-  'Sinclair',
-  'Outis',
-  'Gregor'
-].sort()
-
-const DRAWER_WIDTH = 240
 
 const Sidebar = ({ selectedCharacter, onCharacterSelect }: SidebarProps) => {
+  const characters = getAvailableCharacters();
+
   return (
-    <Drawer
-      variant="permanent"
+    <Paper
+      component="nav"
       sx={{
-        width: DRAWER_WIDTH,
+        width: 240,
         flexShrink: 0,
-        '& .MuiDrawer-paper': {
-          width: DRAWER_WIDTH,
-          boxSizing: 'border-box',
-          backgroundColor: 'background.paper',
-          borderRight: '1px solid rgba(255, 255, 255, 0.12)',
-        },
+        bgcolor: 'background.paper',
+        borderRight: 1,
+        borderColor: 'divider',
+        overflow: 'auto',
       }}
     >
-      <Box sx={{ overflow: 'auto', mt: 8 }}>
-        <Typography variant="h6" sx={{ p: 2, color: 'text.primary' }}>
+      <Box sx={{ p: 2 }}>
+        <Typography variant="h6" component="h2">
           Characters
         </Typography>
-        <List>
-          {characters.map((character) => (
-            <ListItem key={character} disablePadding>
-              <ListItemButton
-                selected={character === selectedCharacter}
-                onClick={() => onCharacterSelect(character)}
-                sx={{
-                  '&.Mui-selected': {
-                    backgroundColor: 'rgba(255, 255, 255, 0.08)',
-                    '&:hover': {
-                      backgroundColor: 'rgba(255, 255, 255, 0.12)',
-                    },
-                  },
-                }}
-              >
-                <ListItemText 
-                  primary={character} 
-                  sx={{ 
-                    '.MuiListItemText-primary': { 
-                      color: character === selectedCharacter ? 'primary.main' : 'text.primary',
-                    },
-                  }}
-                />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
       </Box>
-    </Drawer>
-  )
-}
+      <List>
+        {characters.map(({ id, displayName }) => (
+          <ListItem key={id} disablePadding>
+            <ListItemButton
+              selected={selectedCharacter === id}
+              onClick={() => onCharacterSelect(id)}
+            >
+              <ListItemText primary={displayName} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+    </Paper>
+  );
+};
 
-export default Sidebar 
+export default Sidebar; 

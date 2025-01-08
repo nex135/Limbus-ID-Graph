@@ -152,7 +152,7 @@ export const sinnerData: SinnerData = {
       }
     ],
     "has_weak": false,
-    "has_prime": false,
+    "has_prime": true,
     "elite_bias_score_matrix": [],
     "elite_bias_rank_matrix": [],
     "full_deck_score_matrix": [],

@@ -32,7 +32,7 @@ const chartOptions: ChartOptions<'line'> = {
     y: {
       type: 'linear',
       beginAtZero: true,
-      max: 1.1,
+      max: 1.0,
       grid: {
         color: 'rgba(255, 255, 255, 0.1)',
       },
@@ -47,7 +47,7 @@ const chartOptions: ChartOptions<'line'> = {
     x: {
       type: 'linear',
       min: 0,
-      max: 40,
+      max: 44,
       grid: {
         color: 'rgba(255, 255, 255, 0.1)',
       },
@@ -76,12 +76,9 @@ interface GraphViewProps {
 
 const generateBreakpoints = (skill: any, variant: number) => {
   const stats = skill.stats;
-  const base_power = stats[0];
-  const coin_power = stats[1];
-  const coin_count = stats[2];
-  const offense = stats[3];
+  
 
-  let effective_base_power = base_power + offense / 3;
+  
   let bonuses = [0, 0, 0, 0];
   
   if (variant === 0 && skill.weak_bonuses) { // adverse
@@ -90,7 +87,11 @@ const generateBreakpoints = (skill: any, variant: number) => {
     bonuses = skill.prime_bonuses;
   }
 
-  effective_base_power += bonuses[0] + bonuses[3] / 3;
+  const base_power = stats[0] + bonuses[0];
+  const coin_power = stats[1] + bonuses[1];
+  const coin_count = stats[2] + bonuses[2];
+  const offense = stats[3] + bonuses[3];
+  let effective_base_power = base_power + offense / 3;
 
   const breakpoints = [0];
   for (let i = 0; i <= coin_count; i++) {
@@ -100,15 +101,11 @@ const generateBreakpoints = (skill: any, variant: number) => {
 };
 
 const generateChances = (skill: any, variant: number) => {
-  const stats = skill.stats;
-  const coin_count = stats[2];
   
   const sanityLevels = [0.05, 0.275, 0.5, 0.725, 0.95];
   const chances = [];
 
   // First row is all 1s if effective_base_power > 0, else all 0s
-  const base_power = stats[0];
-  const offense = stats[3];
   let bonuses = [0, 0, 0, 0];
   
   if (variant === 0 && skill.weak_bonuses) {
@@ -116,6 +113,8 @@ const generateChances = (skill: any, variant: number) => {
   } else if (variant === 2 && skill.prime_bonuses) {
     bonuses = skill.prime_bonuses;
   }
+  const stats = skill.stats.map((stat: number, index: number) => stat + bonuses[index]);
+  const coin_count = stats[2];
 
   // Generate chances for each coin count
   for (let i = 0; i <= coin_count; i++) {
@@ -206,6 +205,13 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
               console.log(`[GraphView] Generating chart data for skill ${index}:`, skill);
               
               const variantIndex = variant === 'adverse' ? 0 : variant === 'expected' ? 1 : 2;
+              
+              // Skip this skill if it doesn't have the selected variant's bonuses
+              if ((variant === 'adverse' && !skill.weak_bonuses) || 
+                  (variant === 'prime' && !skill.prime_bonuses)) {
+                return null;
+              }
+              
               const breakpoints = generateBreakpoints(skill, variantIndex);
               console.log(`[GraphView] Generated breakpoints:`, breakpoints);
               
@@ -220,7 +226,6 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
               const datasets = chances[0].map((_, i) => {
                 const data = chances.map(row => row[i]);
                 data.push(data[data.length - 1]);
-                console.log("data", data);
                 return {
                   label: `SP ${(i * 0.225 + 0.05).toFixed(3)}`,
                   data: data,
@@ -235,8 +240,9 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
               return {
                 labels: breakpoints,
                 datasets: datasets,
+                skillIndex: index,
               };
-            });
+            }).filter(chart => chart !== null);
             
             console.log(`[GraphView] Final chart data:`, skillCharts);
             setChartData(skillCharts);
@@ -294,7 +300,7 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
           <ToggleButton 
             value="adverse" 
             aria-label="adverse"
-            disabled={!sinnerData?.has_weak}
+            disabled={!sinnerData?.skills.some(skill => skill.weak_bonuses)}
           >
             Adverse
           </ToggleButton>
@@ -304,7 +310,7 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
           <ToggleButton 
             value="prime" 
             aria-label="prime"
-            disabled={!sinnerData?.has_prime}
+            disabled={!sinnerData?.skills.some(skill => skill.prime_bonuses)}
           >
             Prime
           </ToggleButton>
@@ -317,9 +323,9 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
         </Paper>
       )}
 
-      {chartData.map((data, index) => (
+      {chartData.map((data) => (
         <Paper
-          key={index}
+          key={data.skillIndex}
           sx={{
             p: 2,
             height: '300px',
@@ -329,7 +335,7 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
           }}
         >
           <Typography variant="subtitle1" gutterBottom>
-            {sinnerData?.skills[index].name.replace(/_/g, ' ').split(' ').map(word => 
+            {sinnerData?.skills[data.skillIndex].name.replace(/_/g, ' ').split(' ').map(word => 
               word.charAt(0).toUpperCase() + word.slice(1)
             ).join(' ')}
           </Typography>

@@ -577,13 +577,13 @@ export const sinnerData: SinnerData = {
           0,
           2,
           0,
-          0
+          6
         ],
         "prime_damage_bonuses": [
           0,
           2,
           0,
-          0
+          6
         ],
         "weak_bonuses": [
           0,
@@ -617,13 +617,13 @@ export const sinnerData: SinnerData = {
           0,
           2,
           0,
-          0
+          6
         ],
         "prime_damage_bonuses": [
           0,
           2,
           0,
-          0
+          6
         ],
         "weak_bonuses": [
           0,
@@ -657,13 +657,13 @@ export const sinnerData: SinnerData = {
           0,
           2,
           0,
-          0
+          6
         ],
         "prime_damage_bonuses": [
           0,
           2,
           0,
-          0
+          6
         ],
         "weak_bonuses": [
           0,
@@ -697,13 +697,13 @@ export const sinnerData: SinnerData = {
           0,
           2,
           0,
-          0
+          6
         ],
         "prime_damage_bonuses": [
           0,
           2,
           0,
-          0
+          6
         ],
         "weak_bonuses": [
           0,
@@ -737,13 +737,13 @@ export const sinnerData: SinnerData = {
           2,
           2,
           0,
-          0
+          6
         ],
         "prime_damage_bonuses": [
           0,
           2,
           0,
-          0
+          6
         ],
         "weak_bonuses": [
           0,
@@ -777,13 +777,13 @@ export const sinnerData: SinnerData = {
           3,
           2,
           0,
-          0
+          6
         ],
         "prime_damage_bonuses": [
           3,
           2,
           0,
-          0
+          6
         ],
         "weak_bonuses": [
           0,
@@ -817,13 +817,13 @@ export const sinnerData: SinnerData = {
           0,
           0,
           0,
-          0
+          6
         ],
         "prime_damage_bonuses": [
           0,
           0,
           0,
-          0
+          6
         ],
         "weak_bonuses": [
           0,
@@ -857,13 +857,13 @@ export const sinnerData: SinnerData = {
           0,
           0,
           0,
-          0
+          6
         ],
         "prime_damage_bonuses": [
           0,
           0,
           0,
-          0
+          6
         ],
         "weak_bonuses": [
           0,

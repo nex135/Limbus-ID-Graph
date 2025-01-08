@@ -59,7 +59,7 @@ const chartOptions: ChartOptions<'line'> = {
   },
   plugins: {
     legend: {
-      position: 'right' as const,
+      position: 'top' as const,
       labels: {
         color: 'rgba(255, 255, 255, 0.7)',
       },

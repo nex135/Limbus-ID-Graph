@@ -1,14 +1,47 @@
 !!python/object:sinner.Sinner
-name: ryoshu_w_corp_ut4
+name: hong_lu_yuro_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: energy_cycle
+  name: deduction_start
   stats:
   - 3
+  - 4
   - 2
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: morph_cane_technique
+  stats:
+  - 4
+  - 4
   - 3
-  - 5
+  - 2
   damage_bonuses:
   - 0
   - 0
@@ -16,12 +49,12 @@ skills:
   - 0
   prime_bonuses:
   - 1
-  - 0
+  - 1
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -36,67 +69,34 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: leap
-  stats:
-  - 2
-  - 5
-  - 3
-  - 5
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
-  - 2
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 2
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: dimension_demon_edge_dimensional_refraction
+  name: you're_the_culprit
   stats:
   - 3
-  - 7
+  - 3
   - 4
-  - 5
+  - 4
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 0
-  - 0
+  - 2
+  - 3
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 0
+  - 3
   - 0
   - 0
   weak_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0
   weak_damage_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0

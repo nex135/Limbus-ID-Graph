@@ -1,14 +1,47 @@
 !!python/object:sinner.Sinner
-name: ryoshu_w_corp_ut4
+name: meursault_dieci_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: energy_cycle
+  name: studious_dedication
   stats:
   - 3
+  - 4
   - 2
+  - 0
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
   - 3
-  - 5
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: moment_of_erudition
+  stats:
+  - 4
+  - 6
+  - 2
+  - 1
   damage_bonuses:
   - 0
   - 0
@@ -16,44 +49,11 @@ skills:
   - 0
   prime_bonuses:
   - 1
-  - 0
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: leap
-  stats:
-  - 2
-  - 5
-  - 3
-  - 5
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
   - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - 0
+  - 1
   - 2
   - 0
   - 0
@@ -69,34 +69,34 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: dimension_demon_edge_dimensional_refraction
+  name: scorch_knowledge
   stats:
-  - 3
-  - 7
+  - 5
   - 4
-  - 5
+  - 3
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 0
-  - 0
+  - 1
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - 0
-  - 0
+  - 1
+  - 2
   - 0
   - 0
   weak_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0
   weak_damage_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0

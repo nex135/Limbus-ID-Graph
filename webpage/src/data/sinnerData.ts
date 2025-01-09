@@ -5714,6 +5714,138 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "hong_lu_fanghunt": {
+    "name": "hong_lu_fanghunt_ut4",
+    "skills": [
+      {
+        "name": "slamn",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "bonecrusher",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          5,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "a_cheerful_hunt's_end",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "hong_lu_hook": {
     "name": "hong_lu_hook_ut4",
     "skills": [
@@ -6638,6 +6770,138 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "hong_lu_yuro": {
+    "name": "hong_lu_yuro_ut4",
+    "skills": [
+      {
+        "name": "deduction_start",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "morph_cane_technique",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "you're_the_culprit",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          3,
+          4,
+          4
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          3,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "ishmael_boat": {
     "name": "ishmael_boat_ut4",
     "skills": [
@@ -6751,6 +7015,138 @@ export const sinnerData: SinnerData = {
         "weak_bonuses": [
           0,
           -1,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "ishmael_butler": {
+    "name": "ishmael_butler_ut4",
+    "skills": [
+      {
+        "name": "sweeping_redirection",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "housekeeping",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "restraining_technique",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
           0,
           0
         ],
@@ -7694,6 +8090,178 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "ishmael_zwei_west": {
+    "name": "ishmael_zwei_west_ut4",
+    "skills": [
+      {
+        "name": "zwei_knight's_greatsword_form",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "can't_let_you_through",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "ward",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "your_shield",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          12,
+          1,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          15
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "meursault_bl": {
     "name": "meursault_bl_ut4",
     "skills": [
@@ -7801,6 +8369,270 @@ export const sinnerData: SinnerData = {
         "prime_damage_bonuses": [
           0,
           0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "meursault_cinq": {
+    "name": "meursault_cinq_ut4",
+    "skills": [
+      {
+        "name": "allez",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "fente",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "salut",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "meursault_dieci": {
+    "name": "meursault_dieci_ut4",
+    "skills": [
+      {
+        "name": "studious_dedication",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "moment_of_erudition",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          6,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "scorch_knowledge",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          1,
+          2,
           0,
           0
         ],
@@ -8750,6 +9582,138 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "outis_barber": {
+    "name": "outis_barber_ut4",
+    "skills": [
+      {
+        "name": "sewing",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          6
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          6
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "scission",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          6
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          6
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "i'll_make_you_a_new_dress",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          3,
+          4,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          1,
+          0,
+          6
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          6
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "outis_blade": {
     "name": "outis_blade_ut4",
     "skills": [
@@ -8859,6 +9823,138 @@ export const sinnerData: SinnerData = {
           0,
           0,
           0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "outis_butler": {
+    "name": "outis_butler_ut4",
+    "skills": [
+      {
+        "name": "knocking",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          3
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          3
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "dusting",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          3
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          3
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "as_mistress_commands",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          4,
+          4
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          3
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          3
         ],
         "weak_bonuses": [
           0,
@@ -9542,6 +10638,138 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "outis_ring": {
+    "name": "outis_ring_ut4",
+    "skills": [
+      {
+        "name": "dotting",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "sanguine_painting",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "artwork_inspection",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          6,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "outis_seven": {
     "name": "outis_seven_ut4",
     "skills": [
@@ -9651,6 +10879,270 @@ export const sinnerData: SinnerData = {
           0,
           0,
           0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "outis_w_corp": {
+    "name": "outis_w_corp_ut4",
+    "skills": [
+      {
+        "name": "ripple",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "charged_leap",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          6,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "rip_dimension",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          4,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "rodion_devyat": {
+    "name": "rodion_devyat_ut4",
+    "skills": [
+      {
+        "name": "courier_trunk_decay_knife",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "courier_trunk_gadget_reveal",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "i_trust_ya_polu",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          4
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          1
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          1
         ],
         "weak_bonuses": [
           0,
@@ -10466,6 +11958,218 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "rodion_princess": {
+    "name": "rodion_princess_ut4",
+    "skills": [
+      {
+        "name": "begone...",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "in_finely_ground_mistfall",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "the_festival_will_end",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "ascendant_don_quixote_hardblood_arts_the_finale",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          5,
+          3,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "don_quixote_hardblood_arts_15_parasol",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "rodion_rosespanner": {
     "name": "rodion_rosespanner_ut4",
     "skills": [
@@ -10705,6 +12409,138 @@ export const sinnerData: SinnerData = {
         "prime_damage_bonuses": [
           0,
           0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "ryoshu_butler": {
+    "name": "ryoshu_butler_ut4",
+    "skills": [
+      {
+        "name": "recieving_arts_1_the_hunt",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "receiving_arts_7_capture",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          6,
+          2,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "receiving_arts_2_S.Y.N.C",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          7,
+          2,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
           0,
           0
         ],
@@ -11390,6 +13226,178 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "ryoshu_red_eyes_penitence": {
+    "name": "ryoshu_red_eyes_penitence_ut4",
+    "skills": [
+      {
+        "name": "both_of_you_shut_up",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "S.H._S.F.",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "skullbuster",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "serious_skullbuster",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          4,
+          4,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          4,
+          4,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "ryoshu_seven": {
     "name": "ryoshu_seven_ut4",
     "skills": [
@@ -11526,7 +13534,7 @@ export const sinnerData: SinnerData = {
     "name": "ryoshu_w_corp_ut4",
     "skills": [
       {
-        "name": "energy_cyclee",
+        "name": "energy_cycle",
         "coin_type": "plus",
         "stats": [
           3,
@@ -11641,6 +13649,138 @@ export const sinnerData: SinnerData = {
         "weak_damage_bonuses": [
           0,
           -5,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "ryoshu_yuro": {
+    "name": "ryoshu_yuro_ut4",
+    "skills": [
+      {
+        "name": "got_a_screw_loose?",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "compression_wind-up_spanner",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          3,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "percussive_maintenance",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          3,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
           0,
           0
         ]
@@ -12025,6 +14165,138 @@ export const sinnerData: SinnerData = {
         "prime_damage_bonuses": [
           0,
           3,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "sinclair_devyat": {
+    "name": "sinclair_devyat_ut4",
+    "skills": [
+      {
+        "name": "courier_trunk_decay_hammer",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "courier_trunk_demolition_gadget",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "poludnitsa_i_trust_you",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
           0,
           0
         ],
@@ -12681,6 +14953,310 @@ export const sinnerData: SinnerData = {
           0,
           0,
           0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "sinclair_zwei_south": {
+    "name": "sinclair_zwei_ut4",
+    "skills": [
+      {
+        "name": "baton",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          6,
+          1,
+          -2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "suppress",
+        "coin_type": "plus",
+        "stats": [
+          6,
+          2,
+          2,
+          -2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "strong_strike",
+        "coin_type": "plus",
+        "stats": [
+          7,
+          13,
+          1,
+          -2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "sinclair_zwei_west": {
+    "name": "sinclair_zwei_west_ut4",
+    "skills": [
+      {
+        "name": "suppressing.",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "combat_preparation",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "fence",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "zwei_knight's_greatsword_form_guard",
+        "coin_type": "plus",
+        "stats": [
+          2,
+          9,
+          1,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          5
         ],
         "prime_damage_bonuses": [
           0,
@@ -13370,6 +15946,138 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "yi_sang_ring": {
+    "name": "yi_sang_ring_ut4",
+    "skills": [
+      {
+        "name": "paint_over",
+        "coin_type": "plus",
+        "stats": [
+          2,
+          3,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          8
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          8
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "sanguine_pointilism",
+        "coin_type": "plus",
+        "stats": [
+          8,
+          8,
+          1,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          2,
+          0,
+          8
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          2,
+          8
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "hematic_coloring",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          3,
+          4,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          2,
+          0,
+          8
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          8
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "yi_sang_seven": {
     "name": "yi_sang_seven_ut4",
     "skills": [
@@ -13502,6 +16210,138 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "yi_sang_solemn_lament": {
+    "name": "yi_sang_solemn_lament_ut4",
+    "skills": [
+      {
+        "name": "celebration)_for_the_departed",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "solemn_lament_for_the_living",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          6,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "goodbye_now_a_sorrow_in_you",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          4,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          4,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          4,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "yi_sang_spicebush": {
     "name": "yi_sang_spicebush_ut4",
     "skills": [
@@ -13609,6 +16449,138 @@ export const sinnerData: SinnerData = {
         "prime_damage_bonuses": [
           0,
           0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "yi_sang_w_corp": {
+    "name": "yi_sang_w_corp_ut4",
+    "skills": [
+      {
+        "name": "dimensional_slit",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          6,
+          1,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "energy_cycle",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          5,
+          2,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "dimensional_rift",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
           0,
           0
         ],

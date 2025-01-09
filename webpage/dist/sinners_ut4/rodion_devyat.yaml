@@ -1,14 +1,14 @@
 !!python/object:sinner.Sinner
-name: ryoshu_w_corp_ut4
+name: rodion_devyat_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: energy_cycle
+  name: courier_trunk_decay_knife
   stats:
   - 3
+  - 4
   - 2
-  - 3
-  - 5
+  - 2
   damage_bonuses:
   - 0
   - 0
@@ -16,39 +16,6 @@ skills:
   - 0
   prime_bonuses:
   - 1
-  - 0
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: leap
-  stats:
-  - 2
-  - 5
-  - 3
-  - 5
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
   - 2
   - 0
   - 0
@@ -69,34 +36,67 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: dimension_demon_edge_dimensional_refraction
+  name: courier_trunk_gadget_reveal
   stats:
-  - 3
-  - 7
   - 4
-  - 5
+  - 4
+  - 3
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 0
-  - 0
+  - 1
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 0
+  - 2
   - 0
   - 0
   weak_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0
   weak_damage_bonuses:
   - 0
-  - -5
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: i_trust_ya_polu
+  stats:
+  - 5
+  - 4
+  - 3
+  - 4
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 1
+  - 2
+  - 0
+  - 1
+  prime_damage_bonuses:
+  - 0
+  - 2
+  - 0
+  - 1
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
   - 0
   - 0

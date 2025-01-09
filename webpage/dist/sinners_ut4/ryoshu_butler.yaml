@@ -1,13 +1,79 @@
 !!python/object:sinner.Sinner
-name: ryoshu_w_corp_ut4
+name: ryoshu_butler_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: energy_cycle
+  name: recieving_arts_1_the_hunt
   stats:
   - 3
+  - 4
+  - 2
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 3
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: receiving_arts_7_capture
+  stats:
+  - 4
+  - 6
   - 2
   - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 3
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: receiving_arts_2_S.Y.N.C
+  stats:
+  - 4
+  - 7
+  - 2
   - 5
   damage_bonuses:
   - 0
@@ -16,39 +82,6 @@ skills:
   - 0
   prime_bonuses:
   - 1
-  - 0
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: leap
-  stats:
-  - 2
-  - 5
-  - 3
-  - 5
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
   - 2
   - 0
   - 0
@@ -65,38 +98,5 @@ skills:
   weak_damage_bonuses:
   - 0
   - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: dimension_demon_edge_dimensional_refraction
-  stats:
-  - 3
-  - 7
-  - 4
-  - 5
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - -5
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - -5
   - 0
   - 0

@@ -3,7 +3,7 @@ name: ryoshu_w_corp_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: energy_cyclee
+  name: energy_cycle
   stats:
   - 3
   - 2

@@ -1,80 +1,14 @@
 !!python/object:sinner.Sinner
-name: ryoshu_w_corp_ut4
+name: sinclair_zwei_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: energy_cycle
+  name: baton
   stats:
-  - 3
-  - 2
-  - 3
-  - 5
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 1
-  - 0
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: leap
-  stats:
-  - 2
-  - 5
-  - 3
-  - 5
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
-  - 2
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 2
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: dimension_demon_edge_dimensional_refraction
-  stats:
-  - 3
-  - 7
   - 4
-  - 5
+  - 6
+  - 1
+  - -2
   damage_bonuses:
   - 0
   - 0
@@ -92,11 +26,77 @@ skills:
   - 0
   weak_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0
   weak_damage_bonuses:
   - 0
-  - -5
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: suppress
+  stats:
+  - 6
+  - 2
+  - 2
+  - -2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: strong_strike
+  stats:
+  - 7
+  - 13
+  - 1
+  - -2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
   - 0
   - 0

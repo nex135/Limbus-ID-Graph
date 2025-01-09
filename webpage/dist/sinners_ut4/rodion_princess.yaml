@@ -1,0 +1,169 @@
+!!python/object:sinner.Sinner
+name: rodion_princess_ut4
+skills:
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: begone...
+  stats:
+  - 3
+  - 4
+  - 2
+  - 1
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 2
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 2
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: in_finely_ground_mistfall
+  stats:
+  - 4
+  - 4
+  - 3
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 2
+  - 2
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 2
+  - 2
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: the_festival_will_end
+  stats:
+  - 4
+  - 4
+  - 3
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: ascendant_don_quixote_hardblood_arts_the_finale
+  stats:
+  - 4
+  - 5
+  - 3
+  - 5
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0 
+  prime_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 1
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: don_quixote_hardblood_arts_15_parasol
+  stats:
+  - 5
+  - 4
+  - 2
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0 
+  prime_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+

@@ -1,14 +1,14 @@
 !!python/object:sinner.Sinner
-name: ryoshu_w_corp_ut4
+name: outis_butler_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: energy_cycle
+  name: knocking
   stats:
   - 3
+  - 4
   - 2
-  - 3
-  - 5
+  - 2
   damage_bonuses:
   - 0
   - 0
@@ -16,14 +16,14 @@ skills:
   - 0
   prime_bonuses:
   - 1
+  - 1
   - 0
-  - 0
-  - 0
+  - 3
   prime_damage_bonuses:
   - 0
+  - 1
   - 0
-  - 0
-  - 0
+  - 3
   weak_bonuses:
   - 0
   - 0
@@ -36,67 +36,67 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: leap
+  name: dusting
   stats:
-  - 2
-  - 5
-  - 3
-  - 5
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
-  - 2
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 2
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: dimension_demon_edge_dimensional_refraction
-  stats:
-  - 3
-  - 7
   - 4
-  - 5
+  - 4
+  - 3
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
+  - 1
+  - 1
   - 0
-  - 0
-  - 0
-  - 0
+  - 3
   prime_damage_bonuses:
   - 0
+  - 1
   - 0
-  - 0
-  - 0
+  - 3
   weak_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0
   weak_damage_bonuses:
   - 0
-  - -5
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: as_mistress_commands
+  stats:
+  - 4
+  - 3
+  - 4
+  - 4
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 1
+  - 1
+  - 0
+  - 3
+  prime_damage_bonuses:
+  - 0
+  - 1
+  - 0
+  - 3
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
   - 0
   - 0

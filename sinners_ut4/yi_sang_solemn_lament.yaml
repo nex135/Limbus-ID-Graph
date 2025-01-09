@@ -1,14 +1,14 @@
 !!python/object:sinner.Sinner
-name: ryoshu_w_corp_ut4
+name: yi_sang_solemn_lament_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: energy_cycle
+  name: celebration)_for_the_departed
   stats:
-  - 3
+  - 4
+  - 4
   - 2
-  - 3
-  - 5
+  - 2
   damage_bonuses:
   - 0
   - 0
@@ -16,12 +16,12 @@ skills:
   - 0
   prime_bonuses:
   - 1
-  - 0
+  - 1
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 0
+  - 1
   - 0
   - 0
   weak_bonuses:
@@ -36,19 +36,19 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: leap
+  name: solemn_lament_for_the_living
   stats:
+  - 4
+  - 6
   - 2
-  - 5
-  - 3
-  - 5
+  - 2
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 0
+  - 1
   - 2
   - 0
   - 0
@@ -69,10 +69,10 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: dimension_demon_edge_dimensional_refraction
+  name: goodbye_now_a_sorrow_in_you
   stats:
+  - 4
   - 3
-  - 7
   - 4
   - 5
   damage_bonuses:
@@ -81,22 +81,22 @@ skills:
   - 0
   - 0
   prime_bonuses:
-  - 0
-  - 0
+  - 4
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
-  - 0
-  - 0
+  - 4
+  - 2
   - 0
   - 0
   weak_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0
   weak_damage_bonuses:
   - 0
-  - -5
+  - 0
   - 0
   - 0

@@ -33,6 +33,11 @@ const chartOptions: ChartOptions<'line'> = {
       type: 'linear',
       beginAtZero: true,
       max: 1.0,
+      title:{
+        display: true,
+        text: '% chance to clash win',
+        color: 'rgba(255, 255, 255, 0.7)',
+      },
       grid: {
         color: 'rgba(255, 255, 255, 0.1)',
       },
@@ -48,6 +53,11 @@ const chartOptions: ChartOptions<'line'> = {
       type: 'linear',
       min: 0,
       max: 44,
+      title:{
+        display: true,
+        text: 'Clash Value',
+        color: 'rgba(255, 255, 255, 0.7)',
+      },
       grid: {
         color: 'rgba(255, 255, 255, 0.1)',
       },
@@ -221,7 +231,9 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
               const colors = skill.coin_type === 'minus' 
                 ? ['#00ffff', '#95d8ff', '#c6aeff', '#e77aff', '#ff00ff']
                 : ['#ff00ff', '#e77aff', '#c6aeff', '#95d8ff', '#00ffff'];
-
+              if (skill.name === 'poludnitsa_i_trust_you' && variant === 'prime'){
+                breakpoints[4] = breakpoints[4] + 4;
+              }
               // Transpose the chances array to get datasets
               const datasets = chances[0].map((_, i) => {
                 const data = chances.map(row => row[i]);

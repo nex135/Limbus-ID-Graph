@@ -3,7 +3,7 @@ name: hong_lu_fanghunt_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: slamn
+  name: slam
   stats:
   - 3
   - 4

@@ -1,60 +1,27 @@
 !!python/object:sinner.Sinner
-name: hong_lu_fanghunt_ut4
+name: heathcliff_fullstop_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: slam
+  name: return_fire
   stats:
-  - 3
-  - 4
-  - 2
-  - 1
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
-  - 1
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 1
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: bonecrusher
-  stats:
-  - 4
   - 5
-  - 2
-  - 2
+  - 3
+  - 3
+  - 1
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 0
   - 3
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
-  - 0
   - 3
+  - 0
   - 0
   - 0
   weak_bonuses:
@@ -69,11 +36,110 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: a_cheerful_hunt's_end
+  name: headshot
   stats:
+  - 10
+  - 12
+  - 1
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 3
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 3
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: goin'_for_the_bullseye
+  stats:
+  - 12
+  - 14
+  - 1
   - 4
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
   - 3
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
   - 3
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: AL-HV_pulverisation_round
+  stats:
+  - 15
+  - 18
+  - 1
+  - 6
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 3
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 3
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: taking_cover
+  stats:
+  - 2
+  - 8
+  - 1
   - 3
   damage_bonuses:
   - 0
@@ -82,12 +148,12 @@ skills:
   - 0
   prime_bonuses:
   - 0
-  - 3
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 3
+  - 0
   - 0
   - 0
   weak_bonuses:

@@ -1,13 +1,13 @@
 !!python/object:sinner.Sinner
-name: hong_lu_fanghunt_ut4
+name: hong_lu_fullstop_ut4
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: slam
+  name: take_the_shot
   stats:
   - 3
-  - 4
-  - 2
+  - 3
+  - 3
   - 1
   damage_bonuses:
   - 0
@@ -16,12 +16,12 @@ skills:
   - 0
   prime_bonuses:
   - 0
-  - 1
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 1
+  - 0
   - 0
   - 0
   weak_bonuses:
@@ -36,45 +36,78 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: bonecrusher
+  name: target_marked
   stats:
   - 4
+  - 4
+  - 3
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 3
+  - 0
+  - 1
+  - 0
+  prime_damage_bonuses:
+  - 3
+  - 0
+  - 1
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: full-stop_to_life
+  stats:
+  - 7
+  - 4
+  - 3
+  - 3
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 3
+  - 0
+  - 1
+  - 0
+  prime_damage_bonuses:
+  - 3
+  - 0
+  - 1
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: beyond_the_shadow
+  stats:
   - 5
-  - 2
-  - 2
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
-  - 3
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 3
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: a_cheerful_hunt's_end
-  stats:
   - 4
-  - 3
-  - 3
-  - 3
+  - 2
+  - 0
   damage_bonuses:
   - 0
   - 0
@@ -82,12 +115,12 @@ skills:
   - 0
   prime_bonuses:
   - 0
-  - 3
+  - 0
   - 0
   - 0
   prime_damage_bonuses:
   - 0
-  - 3
+  - 0
   - 0
   - 0
   weak_bonuses:
@@ -100,3 +133,4 @@ skills:
   - 0
   - 0
   - 0
+

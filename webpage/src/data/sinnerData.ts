@@ -4187,6 +4187,218 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "heathcliff_fullstop": {
+    "name": "heathcliff_fullstop_ut4",
+    "skills": [
+      {
+        "name": "return_fire",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          3,
+          3,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "headshot",
+        "coin_type": "plus",
+        "stats": [
+          10,
+          12,
+          1,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "goin'_for_the_bullseye",
+        "coin_type": "plus",
+        "stats": [
+          12,
+          14,
+          1,
+          4
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "AL-HV_pulverisation_round",
+        "coin_type": "plus",
+        "stats": [
+          15,
+          18,
+          1,
+          6
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "taking_cover",
+        "coin_type": "plus",
+        "stats": [
+          2,
+          8,
+          1,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "heathcliff_lcb": {
     "name": "heathcliff_lcb_ut4",
     "skills": [
@@ -5718,7 +5930,7 @@ export const sinnerData: SinnerData = {
     "name": "hong_lu_fanghunt_ut4",
     "skills": [
       {
-        "name": "slamn",
+        "name": "slam",
         "coin_type": "plus",
         "stats": [
           3,
@@ -5821,6 +6033,178 @@ export const sinnerData: SinnerData = {
         "prime_damage_bonuses": [
           0,
           3,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "hong_lu_fullstop": {
+    "name": "hong_lu_fullstop_ut4",
+    "skills": [
+      {
+        "name": "take_the_shot",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          3,
+          3,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "target_marked",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "prime_damage_bonuses": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "full-stop_to_life",
+        "coin_type": "plus",
+        "stats": [
+          7,
+          4,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "prime_damage_bonuses": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "beyond_the_shadow",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
           0,
           0
         ],

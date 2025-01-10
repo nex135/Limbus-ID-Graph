@@ -12686,6 +12686,138 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "rodion_t_corp": {
+    "name": "T Corp. Class 2 Collection StaffRodion",
+    "skills": [
+      {
+        "name": "prepare_to_collect",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "t_corp._martial_suppression",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          -2,
+          0
+        ]
+      },
+      {
+        "name": "execute_collections",
+        "coin_type": "plus",
+        "stats": [
+          2,
+          3,
+          4,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          4,
+          1,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "rodion_zwei": {
     "name": "Zwei Assoc. South Section 5 Rodion",
     "skills": [

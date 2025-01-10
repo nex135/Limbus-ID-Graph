@@ -28,7 +28,7 @@ export interface SinnerData {
 
 export const sinnerData: SinnerData = {
   "don_quixote_bl": {
-    "name": "don_quixote_bl_ut4",
+    "name": "Blade Lineage Salsu Don Quixote",
     "skills": [
       {
         "name": "draw_of_the_sword",
@@ -160,7 +160,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_cinq": {
-    "name": "don_quixote_cinq_ut4",
+    "name": "Cinq Assoc. South Section 5 Director Don Quixote",
     "skills": [
       {
         "name": "remise",
@@ -292,7 +292,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_lantern": {
-    "name": "don_quixote_lantern_ut4",
+    "name": "Lobotomy E.G.O::Lantern Don Quixote",
     "skills": [
       {
         "name": "i_shall_nibble_thee",
@@ -424,7 +424,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_lcb": {
-    "name": "don_quixote_lcb_ut4",
+    "name": "LCB Sinner Don Quixote",
     "skills": [
       {
         "name": "joust",
@@ -556,7 +556,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_manager": {
-    "name": "don_quixote_manager_ut4",
+    "name": "The Manager of La Manchaland Don Quixote",
     "skills": [
       {
         "name": "enough_is_enough",
@@ -888,7 +888,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_middle": {
-    "name": "don_quixote_middle_ut4",
+    "name": "The Middle Little Sister Don Quixote",
     "skills": [
       {
         "name": "checking_the_book",
@@ -1020,7 +1020,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_n_corp": {
-    "name": "don_quixote_n_corp_ut4",
+    "name": "N Corp. Mittelhammer Don Quixote",
     "skills": [
       {
         "name": "rightful_purge",
@@ -1152,7 +1152,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_shi": {
-    "name": "don_quixote_shi_ut4",
+    "name": "Shi Assoc. South Section 5 Director Don Quixote",
     "skills": [
       {
         "name": "catch_breath",
@@ -1284,7 +1284,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_t_corp": {
-    "name": "don_quixote_t_corp_ut4",
+    "name": "T Corp. Class 3 Collection Staff Don Quixote",
     "skills": [
       {
         "name": "let_us_prepare_to_collect",
@@ -1416,7 +1416,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "don_quixote_w_corp": {
-    "name": "don_quixote_w_corp_ut4",
+    "name": "W Corp. L3 Cleanup Agent Don Quixote",
     "skills": [
       {
         "name": "rip",
@@ -1548,7 +1548,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_bl": {
-    "name": "faust_bl_ut4",
+    "name": "Blade Lineage Salsu Faust",
     "skills": [
       {
         "name": "moonlit_blade_dance",
@@ -1680,7 +1680,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_butler": {
-    "name": "faust_butler_ut4",
+    "name": "Wuthering Heights Butler Faust",
     "skills": [
       {
         "name": "confiscation",
@@ -1812,7 +1812,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_lcb": {
-    "name": "faust_lcb_ut4",
+    "name": "LCB Sinner Faust",
     "skills": [
       {
         "name": "downward_slash",
@@ -1944,7 +1944,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_l_corp": {
-    "name": "faust_l_corp_ut4",
+    "name": "Lobotomy Corp. Remnant Faust",
     "skills": [
       {
         "name": "sole_strike",
@@ -2076,7 +2076,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_multicrack": {
-    "name": "faust_multicrack_ut4",
+    "name": "MultiCrack Office Rep Faust",
     "skills": [
       {
         "name": "40y-3_activation",
@@ -2208,7 +2208,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_n_corp": {
-    "name": "faust_n_corp_ut4",
+    "name": "The One Who Grips Faust",
     "skills": [
       {
         "name": "cackle",
@@ -2340,7 +2340,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_regret": {
-    "name": "faust_regret_ut4",
+    "name": "Lobotomy E.G.O::Regret Faust",
     "skills": [
       {
         "name": "contracting_strait-jacket",
@@ -2472,7 +2472,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_seven": {
-    "name": "faust_seven_ut4",
+    "name": "Seven Assoc. South Section 4 Faust",
     "skills": [
       {
         "name": "predictive_analysis",
@@ -2604,7 +2604,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_w_corp": {
-    "name": "faust_w_corp_ut4",
+    "name": "W Corp. L2 Cleanup Agent Faust",
     "skills": [
       {
         "name": "energy_cycle",
@@ -2736,7 +2736,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "faust_zwei": {
-    "name": "faust_zwei_ut4",
+    "name": "Zwei Assoc. South Section 4 Faust",
     "skills": [
       {
         "name": "patrolling",
@@ -2868,7 +2868,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_chef": {
-    "name": "gregor_chef_ut4",
+    "name": "R.B. Sous-chef Gregor",
     "skills": [
       {
         "name": "keep_it_fresh",
@@ -3000,7 +3000,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_g_corp": {
-    "name": "gregor_g_corp_ut4",
+    "name": "G Corp. Manager Corporal Gregor",
     "skills": [
       {
         "name": "hack",
@@ -3132,7 +3132,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_heir": {
-    "name": "gregor_heir_ut4",
+    "name": "Edgar Family Heir Gregor",
     "skills": [
       {
         "name": "sabre_slash",
@@ -3264,7 +3264,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_kk": {
-    "name": "gregor_kk_ut4",
+    "name": "Kurokumo Clan Captain Gregor",
     "skills": [
       {
         "name": "lenticular_rend",
@@ -3396,7 +3396,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_lcb": {
-    "name": "gregor_lcb_ut4",
+    "name": "LCB Sinner Gregor",
     "skills": [
       {
         "name": "swipe",
@@ -3528,7 +3528,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_liu": {
-    "name": "gregor_liu_ut4",
+    "name": "Liu Assoc. South Section 6 Gregor",
     "skills": [
       {
         "name": "single_point_stab",
@@ -3660,7 +3660,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_priest": {
-    "name": "gregor_priest_ut4",
+    "name": "The Priest of La Manchaland Gregor",
     "skills": [
       {
         "name": "sacrifice_for_the_family",
@@ -3792,7 +3792,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_rosespanner": {
-    "name": "gregor_rosespanner_ut4",
+    "name": "Rosespanner Workshop Fixer Gregor",
     "skills": [
       {
         "name": "rev_up",
@@ -3924,7 +3924,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_twinhook": {
-    "name": "gregor_twinhook_ut4",
+    "name": "Twinhook Pirates First Mate Gregor",
     "skills": [
       {
         "name": "negotiation_start",
@@ -4056,7 +4056,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "gregor_zwei": {
-    "name": "gregor_zwei_ut4",
+    "name": "Zwei Assoc. South Section 4 Gregor",
     "skills": [
       {
         "name": "standoff",
@@ -4188,7 +4188,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_fullstop": {
-    "name": "heathcliff_fullstop_ut4",
+    "name": "Full-Stop Office Fixer Heathcliff",
     "skills": [
       {
         "name": "return_fire",
@@ -4400,7 +4400,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_lcb": {
-    "name": "heathcliff_lcb_ut4",
+    "name": "LCB Sinner Heathcliff",
     "skills": [
       {
         "name": "bat_bash",
@@ -4532,7 +4532,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_multicrack": {
-    "name": "heathcliff_multicrack_ut4",
+    "name": "MultiCrack Office Fixer Heathcliff",
     "skills": [
       {
         "name": "40s-2_activation",
@@ -4664,7 +4664,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_n_corp": {
-    "name": "heathcliff_n_corp_ut4",
+    "name": "N Corp. Kleinhammer Heathcliff",
     "skills": [
       {
         "name": "gawky_nailing",
@@ -4796,7 +4796,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_oufi": {
-    "name": "heathcliff_outi_ut4",
+    "name": "Oufi Assoc. South Section 3 Heathcliff",
     "skills": [
       {
         "name": "excution_advised",
@@ -4928,7 +4928,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_pequod": {
-    "name": "heathcliff_pequod_ut4",
+    "name": "The Pequod Harpooner Heathcliff",
     "skills": [
       {
         "name": "stalk_prey",
@@ -5060,7 +5060,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_r_corp": {
-    "name": "heathcliff_r_corp_ut4",
+    "name": "R Corp. 4th Pack Rabbit Heathcliff",
     "skills": [
       {
         "name": "graze_the_grass",
@@ -5192,7 +5192,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_seven": {
-    "name": "heathcliff_seven_ut4",
+    "name": "Seven Assoc. South Section 4 Heathcliff",
     "skills": [
       {
         "name": "intuition",
@@ -5324,7 +5324,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_shi": {
-    "name": "heathcliff_shi_ut4",
+    "name": "Shi Assoc. South Section 5 Heathcliff",
     "skills": [
       {
         "name": "extreme_edge",
@@ -5456,7 +5456,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_sunshower": {
-    "name": "heathcliff_sunshower_ut4",
+    "name": "Lobotomy E.G.O::Sunshower Heathcliff",
     "skills": [
       {
         "name": "umbrella_thwack",
@@ -5588,7 +5588,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "heathcliff_wild_hunt": {
-    "name": "heathcliff_wild_hunt_ut4",
+    "name": "Wild Hunt Heathcliff",
     "skills": [
       {
         "name": "beheading",
@@ -5795,7 +5795,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_dieci": {
-    "name": "hong_lu_dieci_ut4",
+    "name": "Dieci Assoc. South Section 4 Hong Lu",
     "skills": [
       {
         "name": "expend_knowledge",
@@ -5927,7 +5927,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_fanghunt": {
-    "name": "hong_lu_fanghunt_ut4",
+    "name": "Fanghunt Office Fixer Hong Lu",
     "skills": [
       {
         "name": "slam",
@@ -6059,7 +6059,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_fullstop": {
-    "name": "hong_lu_fullstop_ut4",
+    "name": "Full-Stop Office Rep Hong Lu",
     "skills": [
       {
         "name": "take_the_shot",
@@ -6231,7 +6231,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_hook": {
-    "name": "hong_lu_hook_ut4",
+    "name": "Hook Office Fixer Hong Lu",
     "skills": [
       {
         "name": "track",
@@ -6363,7 +6363,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_kurokumo": {
-    "name": "hong_lu_kurokumo_ut4",
+    "name": "Kurokumo Clan Wakashu Hong Lu",
     "skills": [
       {
         "name": "hack",
@@ -6495,7 +6495,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_k_corp": {
-    "name": "hong_lu_k_corp_ut4",
+    "name": "K Corp. Class 3 Excision Staff Hong Lu",
     "skills": [
       {
         "name": "impede_the_intruder",
@@ -6627,7 +6627,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_lcb": {
-    "name": "hong_lu_lcb_ut4",
+    "name": "LCB Sinner Hong Lu",
     "skills": [
       {
         "name": "downward_cleave",
@@ -6759,7 +6759,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_liu": {
-    "name": "hong_lu_liu_ut4",
+    "name": "Liu Assoc. South Section 5 Hong Lu",
     "skills": [
       {
         "name": "warm_up",
@@ -6891,7 +6891,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_tingtang": {
-    "name": "hong_lu_tingtang_ut4",
+    "name": "Tingtang Gang Leader Hong Lu",
     "skills": [
       {
         "name": "throat_slit",
@@ -7023,7 +7023,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_w_corp": {
-    "name": "hong_lu_w_corp_ut4",
+    "name": "W Corp. L2 Cleanup Agent Hong Lu",
     "skills": [
       {
         "name": "energy_cycle",
@@ -7155,7 +7155,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "hong_lu_yuro": {
-    "name": "hong_lu_yuro_ut4",
+    "name": "District 20 Yurodivy Hong Lu",
     "skills": [
       {
         "name": "deduction_start",
@@ -7287,7 +7287,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_boat": {
-    "name": "ishmael_boat_ut4",
+    "name": "Molar Boatworks Fixer Ishmael",
     "skills": [
       {
         "name": "ready_to_crush",
@@ -7419,7 +7419,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_butler": {
-    "name": "ishmael_butler_ut4",
+    "name": "Edgar Family Butler Ishmael",
     "skills": [
       {
         "name": "sweeping_redirection",
@@ -7551,7 +7551,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_lcb": {
-    "name": "ishmael_lcb_ut4",
+    "name": "LCB Sinner Ishmael",
     "skills": [
       {
         "name": "loggerhead",
@@ -7683,7 +7683,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_lccb": {
-    "name": "ishmael_lccb_ut4",
+    "name": "LCCB Assistant Manager Ishmael",
     "skills": [
       {
         "name": "shove",
@@ -7815,7 +7815,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_liu": {
-    "name": "ishmael_liu_ut4",
+    "name": "Liu Assoc. South Section 4 Ishmael",
     "skills": [
       {
         "name": "red_kick",
@@ -7946,8 +7946,8 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
-  "ishmael_l_corp": {
-    "name": "ishmael_l_corp_ut4",
+  "ishmael_sloshing": {
+    "name": "Lobotomy E.G.O::Sloshing Ishmael",
     "skills": [
       {
         "name": "its_heavy",
@@ -8079,7 +8079,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_pequod": {
-    "name": "ishmael_pequod_ut4",
+    "name": "The Pequod Captain Ishmael",
     "skills": [
       {
         "name": "to_me",
@@ -8211,7 +8211,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_r_corp": {
-    "name": "ishmael_r_corp_ut4",
+    "name": "R Corp. 4th Pack Reindeer Ishmael",
     "skills": [
       {
         "name": "mind_strike",
@@ -8343,7 +8343,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_shi": {
-    "name": "ishmael_shi_ut4",
+    "name": "Shi Assoc. South Section 5 Ishmael",
     "skills": [
       {
         "name": "flying_sword",
@@ -8475,7 +8475,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ishmael_zwei_west": {
-    "name": "ishmael_zwei_west_ut4",
+    "name": "Zwei Assoc. West Section 3 Ishmael",
     "skills": [
       {
         "name": "zwei_knight's_greatsword_form",
@@ -8647,7 +8647,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_bl": {
-    "name": "meursault_bl_ut4",
+    "name": "Blade Lineage Mentor Meursault",
     "skills": [
       {
         "name": "draw_of_the_sword",
@@ -8779,7 +8779,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_cinq": {
-    "name": "meursault_cinq_ut4",
+    "name": "Cinq Assoc. West Section 3 Meursault",
     "skills": [
       {
         "name": "allez",
@@ -8911,7 +8911,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_dieci": {
-    "name": "meursault_dieci_ut4",
+    "name": "Dieci Assoc. South Section 4 Director Meursault",
     "skills": [
       {
         "name": "studious_dedication",
@@ -9043,7 +9043,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_lcb": {
-    "name": "meursault_lcb_ut4",
+    "name": "LCB Sinner Meursault",
     "skills": [
       {
         "name": "un_deux",
@@ -9175,7 +9175,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_liu": {
-    "name": "meursault_liu_ut4",
+    "name": "Liu Assoc. South Section 6 Meursault",
     "skills": [
       {
         "name": "assault",
@@ -9307,7 +9307,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_middle": {
-    "name": "meursault_middle_ut4",
+    "name": "The Middle Little Brother Meursault",
     "skills": [
       {
         "name": "we_remember",
@@ -9439,7 +9439,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_n_corp": {
-    "name": "meursault_n_corp_ut4",
+    "name": "N Corp. Großhammer Meursault",
     "skills": [
       {
         "name": "drive",
@@ -9571,7 +9571,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_rosespanner": {
-    "name": "meursault_rosespanner_ut4",
+    "name": "Rosespanner Workshop Fixer Meursault",
     "skills": [
       {
         "name": "saddled_tasks",
@@ -9703,7 +9703,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_r_corp": {
-    "name": "meursault_r_corp_ut4",
+    "name": "R Corp. 4th Pack Rhino Meursault",
     "skills": [
       {
         "name": "weighty_bash",
@@ -9835,7 +9835,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "meursault_w_corp": {
-    "name": "meursault_w_corp_ut4",
+    "name": "W Corp. L2 Cleanup Agent Meursault",
     "skills": [
       {
         "name": "rip",
@@ -9967,7 +9967,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_barber": {
-    "name": "outis_barber_ut4",
+    "name": "The Barber of La Manchaland Outis",
     "skills": [
       {
         "name": "sewing",
@@ -10099,7 +10099,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_blade": {
-    "name": "outis_blade_ut4",
+    "name": "Blade Lineage Salsu Outis",
     "skills": [
       {
         "name": "draw_of_the_sword",
@@ -10231,7 +10231,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_butler": {
-    "name": "outis_butler_ut4",
+    "name": "Wuthering Heights Chief Butler Outis",
     "skills": [
       {
         "name": "knocking",
@@ -10363,7 +10363,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_cinq": {
-    "name": "outis_cinq_ut4",
+    "name": "Cinq Assoc. South Section 4 Outis",
     "skills": [
       {
         "name": "marche",
@@ -10495,7 +10495,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_g_corp": {
-    "name": "outis_g_corp_ut4",
+    "name": "G Corp. Head Manager Outis",
     "skills": [
       {
         "name": "order",
@@ -10627,7 +10627,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_lcb": {
-    "name": "outis_lcb_ut4",
+    "name": "LCB Sinner Outis",
     "skills": [
       {
         "name": "pulled_blade",
@@ -10759,7 +10759,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_magic_bullet": {
-    "name": "outis_magic_bullet_ut4",
+    "name": "Lobotomy E.G.O::Magic Bullet Outis",
     "skills": [
       {
         "name": "ignition",
@@ -10891,7 +10891,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_molar_office": {
-    "name": "outis_molar_office_ut4",
+    "name": "Molar Office Fixer Outis",
     "skills": [
       {
         "name": "wait_up",
@@ -11023,7 +11023,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_ring": {
-    "name": "outis_ring_ut4",
+    "name": "The Ring Pointilist Student Outis",
     "skills": [
       {
         "name": "dotting",
@@ -11155,7 +11155,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_seven": {
-    "name": "outis_seven_ut4",
+    "name": "Seven Assoc. South Section 6 Director Outis",
     "skills": [
       {
         "name": "predictive_analysis",
@@ -11287,7 +11287,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "outis_w_corp": {
-    "name": "outis_w_corp_ut4",
+    "name": "W Corp. L3 Cleanup Captain Outis",
     "skills": [
       {
         "name": "ripple",
@@ -11419,7 +11419,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_devyat": {
-    "name": "rodion_devyat_ut4",
+    "name": "Devyat Assoc. North Section 3 Rodion",
     "skills": [
       {
         "name": "courier_trunk_decay_knife",
@@ -11551,7 +11551,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_dieci": {
-    "name": "rodion_dieci_ut4",
+    "name": "Dieci Assoc. South Section 4 Rodion",
     "skills": [
       {
         "name": "illuminate_thy_vacuity",
@@ -11683,7 +11683,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_kurokumo": {
-    "name": "rodion_kurokumo_ut4",
+    "name": "Kurokumo Clan Wakashu Rodion",
     "skills": [
       {
         "name": "sharp_edge",
@@ -11815,7 +11815,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_lcb": {
-    "name": "rodion_lcb_ut4",
+    "name": "LCB Sinner Rodion",
     "skills": [
       {
         "name": "strike_down",
@@ -11947,7 +11947,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_lccb": {
-    "name": "rodion_lccb_ut4",
+    "name": "LCCB Assistant Manager Rodion",
     "skills": [
       {
         "name": "bludgeon",
@@ -12079,7 +12079,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_liu": {
-    "name": "rodion_liu_ut4",
+    "name": "Liu Assoc. South Section 4 Director Rodion",
     "skills": [
       {
         "name": "flaming_fists",
@@ -12211,7 +12211,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_n_corp": {
-    "name": "rodion_n_corp_ut4",
+    "name": "N Corp. Mittelhammer Rodion",
     "skills": [
       {
         "name": "devoted_hammering",
@@ -12343,7 +12343,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_princess": {
-    "name": "rodion_princess_ut4",
+    "name": "The Princess of La Manchaland Rodion",
     "skills": [
       {
         "name": "begone...",
@@ -12555,7 +12555,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_rosespanner": {
-    "name": "rodion_rosespanner_ut4",
+    "name": "Rosespanner Workshop Rep Rodion",
     "skills": [
       {
         "name": "rev_up",
@@ -12687,7 +12687,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_zwei": {
-    "name": "rodion_zwei_ut4",
+    "name": "Zwei Assoc. South Section 5 Rodion",
     "skills": [
       {
         "name": "careful_obstruction",
@@ -12819,7 +12819,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_butler": {
-    "name": "ryoshu_butler_ut4",
+    "name": "Edgar Family Chief Butler Ryoshu",
     "skills": [
       {
         "name": "recieving_arts_1_the_hunt",
@@ -12951,7 +12951,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_chef": {
-    "name": "ryoshu_chef_ut4",
+    "name": "R.B. Chef de Cuisine Ryoshu",
     "skills": [
       {
         "name": "cooking_prep",
@@ -13083,7 +13083,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_kurokumo": {
-    "name": "ryoshu_kurokumo_ut4",
+    "name": "Kurokumo Clan Wakashu Ryoshu",
     "skills": [
       {
         "name": "focus_strike",
@@ -13215,7 +13215,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_lcb": {
-    "name": "ryoshu_lcb_ut4",
+    "name": "LCB Sinner Ryoshu",
     "skills": [
       {
         "name": "paint",
@@ -13347,7 +13347,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_lccb": {
-    "name": "ryoshu_lccb_ut4",
+    "name": "LCCB Assistant Manager Ryoshu",
     "skills": [
       {
         "name": "shove",
@@ -13390,7 +13390,7 @@ export const sinnerData: SinnerData = {
         ]
       },
       {
-        "name": "target_neutralization",
+        "name": "T.N.",
         "coin_type": "plus",
         "stats": [
           4,
@@ -13430,7 +13430,7 @@ export const sinnerData: SinnerData = {
         ]
       },
       {
-        "name": "obliteration_of_forehead",
+        "name": "O.O.F.",
         "coin_type": "plus",
         "stats": [
           4,
@@ -13479,7 +13479,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_liu": {
-    "name": "ryoshu_liu_ut4",
+    "name": "Liu Assoc. South Section 4 Ryoshu",
     "skills": [
       {
         "name": "all_out_war",
@@ -13611,7 +13611,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_red_eyes_penitence": {
-    "name": "ryoshu_red_eyes_penitence_ut4",
+    "name": "Lobotomy E.G.O::Red Eyes & Penitence Ryoshu",
     "skills": [
       {
         "name": "both_of_you_shut_up",
@@ -13783,7 +13783,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_seven": {
-    "name": "ryoshu_seven_ut4",
+    "name": "Seven Assoc. South Section 6 Ryoshu",
     "skills": [
       {
         "name": "slash",
@@ -13915,7 +13915,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_w_corp": {
-    "name": "ryoshu_w_corp_ut4",
+    "name": "W Corp. L3 Cleanup Agent Ryoshu",
     "skills": [
       {
         "name": "energy_cycle",
@@ -13998,7 +13998,7 @@ export const sinnerData: SinnerData = {
         ]
       },
       {
-        "name": "dimension_demon_edge_dimensional_refraction",
+        "name": "D.D.E.D.R",
         "coin_type": "plus",
         "stats": [
           3,
@@ -14047,7 +14047,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "ryoshu_yuro": {
-    "name": "ryoshu_yuro_ut4",
+    "name": "District 20 Yurodivy Ryoshu",
     "skills": [
       {
         "name": "got_a_screw_loose?",
@@ -14179,7 +14179,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "sinclair_blade": {
-    "name": "sinclair_blade_ut4",
+    "name": "Blade Lineage Salsu Sinclair",
     "skills": [
       {
         "name": "slice_then_stab",
@@ -14311,7 +14311,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "sinclair_boat": {
-    "name": "sinclair_boat_ut3",
+    "name": "Molar Boatworks Fixer Sinclair",
     "skills": [
       {
         "name": "fierce_assault",
@@ -14336,7 +14336,7 @@ export const sinnerData: SinnerData = {
         ],
         "prime_damage_bonuses": [
           0,
-          0,
+          1,
           0,
           0
         ],
@@ -14416,7 +14416,7 @@ export const sinnerData: SinnerData = {
         ],
         "prime_damage_bonuses": [
           0,
-          0,
+          2,
           0,
           0
         ],
@@ -14443,7 +14443,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "sinclair_cinq": {
-    "name": "sinclair_cinq_ut4",
+    "name": "Cinq Assoc. South Section 4 Director Sinclair",
     "skills": [
       {
         "name": "remise",
@@ -14575,7 +14575,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "sinclair_devyat": {
-    "name": "sinclair_devyat_ut4",
+    "name": "Devyat Assoc. North Section 3 Sinclair",
     "skills": [
       {
         "name": "courier_trunk_decay_hammer",
@@ -14707,7 +14707,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "sinclair_lcb": {
-    "name": "sinclair_lcb_ut4",
+    "name": "LCB Sinner Sinclair",
     "skills": [
       {
         "name": "downward_swing",
@@ -14838,8 +14838,8 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
-  "sinclair_l_corp": {
-    "name": "sinclair_l_corp_ut4",
+  "sinclair_red_sheet": {
+    "name": "Lobotomy E.G.O::Red Sheet Sinclair",
     "skills": [
       {
         "name": "magnify_wound",
@@ -14971,7 +14971,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "sinclair_mariachi": {
-    "name": "sinclair_mariachi_ut4",
+    "name": "Los Mariachis Jefe Sinclair",
     "skills": [
       {
         "name": "baile_y_rola",
@@ -15103,7 +15103,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "sinclair_n_corp": {
-    "name": "sinclair_n_corp_ut4",
+    "name": "The One Who Shall Grip Sinclair",
     "skills": [
       {
         "name": "coerced_judgement",
@@ -15234,140 +15234,8 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
-  "sinclair_zwei": {
-    "name": "sinclair_zwei_ut4",
-    "skills": [
-      {
-        "name": "baton",
-        "coin_type": "plus",
-        "stats": [
-          4,
-          6,
-          1,
-          -2
-        ],
-        "damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "prime_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "prime_damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "weak_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "weak_damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "name": "suppress",
-        "coin_type": "plus",
-        "stats": [
-          6,
-          2,
-          2,
-          -2
-        ],
-        "damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "prime_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "prime_damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "weak_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "weak_damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "name": "strong_strike",
-        "coin_type": "plus",
-        "stats": [
-          7,
-          13,
-          1,
-          -2
-        ],
-        "damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "prime_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "prime_damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "weak_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "weak_damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    ],
-    "has_weak": false,
-    "has_prime": false,
-    "elite_bias_score_matrix": [],
-    "elite_bias_rank_matrix": [],
-    "full_deck_score_matrix": [],
-    "full_deck_rank_matrix": [],
-    "competitor_count": 0
-  },
   "sinclair_zwei_south": {
-    "name": "sinclair_zwei_ut4",
+    "name": "Zwei Assoc. South Section 6 Sinclair",
     "skills": [
       {
         "name": "baton",
@@ -15499,7 +15367,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "sinclair_zwei_west": {
-    "name": "sinclair_zwei_west_ut4",
+    "name": "Zwei Assoc. West Section 3 Sinclair",
     "skills": [
       {
         "name": "suppressing.",
@@ -15671,7 +15539,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_blade": {
-    "name": "yi_sang_blade_ut4",
+    "name": "Blade Lineage Salsu Yi Sang",
     "skills": [
       {
         "name": "strikers_stance",
@@ -15803,7 +15671,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_dieci": {
-    "name": "yi_sang_dieci_ut4",
+    "name": "Dieci Assoc. South Section 4 Yi Sang",
     "skills": [
       {
         "name": "expend_knowledge",
@@ -15935,7 +15803,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_lcb": {
-    "name": "yi_sang_lcb_ut4",
+    "name": "LCB Sinner Yi Sang",
     "skills": [
       {
         "name": "deflect",
@@ -16067,7 +15935,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_molar_office": {
-    "name": "yi_sang_molar_office_ut4",
+    "name": "Molar Office Fixer Yi Sang",
     "skills": [
       {
         "name": "stay_calm",
@@ -16199,7 +16067,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_pequod": {
-    "name": "yi_sang_pequod_ut4",
+    "name": "The Pequod First Mate Yi Sang",
     "skills": [
       {
         "name": "impale",
@@ -16331,7 +16199,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_ring": {
-    "name": "yi_sang_ring_ut4",
+    "name": "The Ring Pointilist Student Yi Sang",
     "skills": [
       {
         "name": "paint_over",
@@ -16463,7 +16331,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_seven": {
-    "name": "yi_sang_seven_ut4",
+    "name": "Seven Assoc. South Section 6 Yi Sang",
     "skills": [
       {
         "name": "fleche",
@@ -16595,10 +16463,10 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_solemn_lament": {
-    "name": "yi_sang_solemn_lament_ut4",
+    "name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
     "skills": [
       {
-        "name": "celebration)_for_the_departed",
+        "name": "celebration_for_the_departed",
         "coin_type": "plus",
         "stats": [
           4,
@@ -16727,7 +16595,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_spicebush": {
-    "name": "yi_sang_spicebush_ut4",
+    "name": "Effloresced E.G.O::Spicebush Yi Sang",
     "skills": [
       {
         "name": "sprouting_bud",
@@ -16859,7 +16727,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "yi_sang_w_corp": {
-    "name": "yi_sang_w_corp_ut4",
+    "name": "W Corp. L3 Cleanup Agent Yi Sang",
     "skills": [
       {
         "name": "dimensional_slit",

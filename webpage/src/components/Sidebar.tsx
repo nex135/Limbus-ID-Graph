@@ -8,7 +8,6 @@ interface SidebarProps {
 
 const Sidebar = ({ selectedCharacter, onCharacterSelect }: SidebarProps) => {
   const characters = getAvailableCharacters();
-
   return (
     <Paper
       component="nav"

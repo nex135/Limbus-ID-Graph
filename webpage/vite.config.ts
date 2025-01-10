@@ -5,5 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/Limbus-ID-Graph/',
-  assetsInclude: ['**/*.yaml', '**/*.yml'], // Tell Vite to handle YAML files as assets
 })

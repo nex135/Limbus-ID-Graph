@@ -8,9 +8,7 @@ const characterFiles = Object.keys(sinnerData);
 export const getAvailableCharacters = () => {
   return characterFiles.map(file => ({
     id: file,
-    displayName: file.replace(/_/g, ' ').split(' ').map(word => 
-      word.charAt(0).toUpperCase() + word.slice(1)
-    ).join(' ')
+    displayName: sinnerData[file].name
   }));
 };
 

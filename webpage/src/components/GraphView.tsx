@@ -299,9 +299,9 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
         overflow: 'auto',
       }}
     >
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <Box sx={{display:'flex', flexDirection:'row', justifyContent:'space-between', alignItems:'center'}}>
         <Typography variant="h6" component="h1">
-          {selectedCharacter ? `${selectedCharacter} (${variant} state)` : 'Select a character'}
+          {selectedCharacter ? `${sinnerData?.name} (${variant} state)` : 'Select a character'}    
         </Typography>
         <ToggleButtonGroup
           value={variant}
@@ -327,6 +327,20 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
             Prime
           </ToggleButton>
         </ToggleButtonGroup>
+      </Box>
+      <Box sx={{ display: selectedCharacter ? 'none' : 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'left' }}>
+        <Typography variant="h6" align="left">
+          {'NOTE: The graphs show the clash values for individual skills. The X Axis displays the clash value, and the Y value shows the % chance to win the clash. '}
+        </Typography>
+        <Typography variant="h6" align="left">
+          {'Expected state shows the average state of that ID (THIS MAY BE OUTDATED/NOT ACCURATE)'}
+        </Typography>
+        <Typography variant="h6" align="left">
+          {'Adverse state shows the state without conditionals for IDs that have them in their Expected state'}
+        </Typography>
+        <Typography variant="h6" align="left">
+          {'Prime state is with all conditionals, including passives, self buffs, etc. (MAY ALSO INCLUDE EXTERNAL BUFFS FOR SOME IDS, TO BE FIXED)'}
+        </Typography>
       </Box>
 
       {error && (

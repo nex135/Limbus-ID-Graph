@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import { copyFileSync, mkdirSync, existsSync, readdirSync, rmSync, statSync } from 'fs';
+import { copyFileSync, mkdirSync, existsSync, readdirSync, statSync } from 'fs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -27,8 +27,11 @@ function copyDirectory(source, target) {
     if (statSync(sourcePath).isDirectory()) {
       copyDirectory(sourcePath, targetPath);
     } else {
-      copyFileSync(sourcePath, targetPath);
-      console.log(`Copied ${file} to ${target}`);
+      // Only copy build files (js, css, html)
+      if (file.endsWith('.js') || file.endsWith('.css') || file.endsWith('.html') || file.endsWith('.svg')) {
+        copyFileSync(sourcePath, targetPath);
+        console.log(`Copied ${file} to ${target}`);
+      }
     }
   });
 }
@@ -41,7 +44,10 @@ readdirSync(sourceDir).forEach(file => {
   if (statSync(sourcePath).isDirectory()) {
     copyDirectory(sourcePath, targetPath);
   } else {
-    copyFileSync(sourcePath, targetPath);
-    console.log(`Copied ${file} to root directory`);
+    // Only copy build files (js, css, html)
+    if (file.endsWith('.js') || file.endsWith('.css') || file.endsWith('.html') || file.endsWith('.svg')) {
+      copyFileSync(sourcePath, targetPath);
+      console.log(`Copied ${file} to root directory`);
+    }
   }
 }); 

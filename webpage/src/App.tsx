@@ -29,7 +29,6 @@ const darkTheme = createTheme({
 
 function App() {
   const [selectedCharacter, setSelectedCharacter] = useState<string | null>(null)
-
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
@@ -43,7 +42,9 @@ function App() {
           bgcolor: 'background.default',
         }}
       >
-        <Header />
+        <Header 
+          onCharacterSelect={setSelectedCharacter}
+        />
         <Box 
           sx={{ 
             display: 'flex', 

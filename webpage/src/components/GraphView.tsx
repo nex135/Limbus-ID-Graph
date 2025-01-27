@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Box, Paper, Typography, ToggleButton, ToggleButtonGroup } from '@mui/material';
+import { Box, Paper, Typography, ToggleButton, ToggleButtonGroup, Slider } from '@mui/material';
 import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -86,9 +86,6 @@ interface GraphViewProps {
 
 const generateBreakpoints = (skill: any, variant: number) => {
   const stats = skill.stats;
-  
-
-  
   let bonuses = [0, 0, 0, 0];
   
   if (variant === 0 && skill.weak_bonuses) { // adverse
@@ -111,11 +108,9 @@ const generateBreakpoints = (skill: any, variant: number) => {
 };
 
 const generateChances = (skill: any, variant: number) => {
-  
   const sanityLevels = [0.05, 0.275, 0.5, 0.725, 0.95];
   const chances = [];
 
-  // First row is all 1s if effective_base_power > 0, else all 0s
   let bonuses = [0, 0, 0, 0];
   
   if (variant === 0 && skill.weak_bonuses) {
@@ -123,6 +118,7 @@ const generateChances = (skill: any, variant: number) => {
   } else if (variant === 2 && skill.prime_bonuses) {
     bonuses = skill.prime_bonuses;
   }
+
   const stats = skill.stats.map((stat: number, index: number) => stat + bonuses[index]);
   const coin_count = stats[2];
 
@@ -196,44 +192,42 @@ const factorial = (n: number): number => {
 
 const GraphView = ({ selectedCharacter }: GraphViewProps) => {
   const [variant, setVariant] = useState<'adverse' | 'expected' | 'prime'>('expected');
+  const [spValue, setSpValue] = useState<number>(0);
   const [sinnerData, setSinnerData] = useState<Sinner | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [chartData, setChartData] = useState<any[]>([]);
 
+  const handleSpChange = (event: Event, newValue: number) => {
+    setSpValue((newValue*0.01 + 0.5) as number);
+  };
+
   useEffect(() => {
     if (selectedCharacter) {
-      console.log(`[GraphView] Loading data for character: ${selectedCharacter}`);
       loadSinnerData(selectedCharacter)
         .then(data => {
-          console.log(`[GraphView] Successfully loaded data:`, data);
           setSinnerData(data);
           setError(null);
           
           try {
-            // Generate chart data for each skill
             const skillCharts = data.skills.map((skill: any, index: number) => {
-              console.log(`[GraphView] Generating chart data for skill ${index}:`, skill);
-              
               const variantIndex = variant === 'adverse' ? 0 : variant === 'expected' ? 1 : 2;
               
-              // Skip this skill if it doesn't have the selected variant's bonuses
               if ((variant === 'adverse' && !skill.weak_bonuses) || 
                   (variant === 'prime' && !skill.prime_bonuses)) {
                 return null;
               }
               
               const breakpoints = generateBreakpoints(skill, variantIndex);
-              console.log(`[GraphView] Generated breakpoints:`, breakpoints);
+              const chances = generateChances(skill, variantIndex, spValue);
               
-              const chances = generateChances(skill, variantIndex);
-              console.log(`[GraphView] Generated chances:`, chances);
-              
-              const colors = skill.coin_type === 'minus' 
-                ? ['#00ffff', '#95d8ff', '#c6aeff', '#e77aff', '#ff00ff']
-                : ['#ff00ff', '#e77aff', '#c6aeff', '#95d8ff', '#00ffff'];
               if (skill.name === 'poludnitsa_i_trust_you' && variant === 'prime'){
                 breakpoints[4] = breakpoints[4] + 4;
               }
+
+              const colors = skill.coin_type === 'minus' 
+                ? ['#00ffff', '#95d8ff', '#c6aeff', '#e77aff', '#ff00ff']
+                : ['#ff00ff', '#e77aff', '#c6aeff', '#95d8ff', '#00ffff'];
+
               // Transpose the chances array to get datasets
               const datasets = chances[0].map((_, i) => {
                 const data = chances.map(row => row[i]);
@@ -256,7 +250,6 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
               };
             }).filter(chart => chart !== null);
             
-            console.log(`[GraphView] Final chart data:`, skillCharts);
             setChartData(skillCharts);
           } catch (error: any) {
             console.error(`[GraphView] Error generating chart data:`, error);
@@ -303,30 +296,32 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
         <Typography variant="h6" component="h1">
           {selectedCharacter ? `${sinnerData?.name} (${variant} state)` : 'Select a character'}    
         </Typography>
-        <ToggleButtonGroup
-          value={variant}
-          exclusive
-          onChange={handleVariantChange}
-          aria-label="variant"
-        >
-          <ToggleButton 
-            value="adverse" 
-            aria-label="adverse"
-            disabled={!sinnerData?.skills.some(skill => skill.weak_bonuses)}
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+          <ToggleButtonGroup
+            value={variant}
+            exclusive
+            onChange={handleVariantChange}
+            aria-label="variant"
           >
-            Adverse
-          </ToggleButton>
-          <ToggleButton value="expected" aria-label="expected">
-            Expected
-          </ToggleButton>
-          <ToggleButton 
-            value="prime" 
-            aria-label="prime"
-            disabled={!sinnerData?.skills.some(skill => skill.prime_bonuses)}
-          >
-            Prime
-          </ToggleButton>
-        </ToggleButtonGroup>
+            <ToggleButton 
+              value="adverse" 
+              aria-label="adverse"
+              disabled={!sinnerData?.skills.some(skill => skill.weak_bonuses)}
+            >
+              Adverse
+            </ToggleButton>
+            <ToggleButton value="expected" aria-label="expected">
+              Expected
+            </ToggleButton>
+            <ToggleButton 
+              value="prime" 
+              aria-label="prime"
+              disabled={!sinnerData?.skills.some(skill => skill.prime_bonuses)}
+            >
+              Prime
+            </ToggleButton>
+          </ToggleButtonGroup>
+        </Box>
       </Box>
       <Box sx={{ display: selectedCharacter ? 'none' : 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'left' }}>
         <Typography variant="h6" align="left">

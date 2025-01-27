@@ -2867,6 +2867,177 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "faust_lce": {
+    "name": "LCE E.G.O::Ardor Blossom Star Faust",
+    "skills": [
+      {
+        "name": "ignition",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          5
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          5
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "E.G.O_-_A.B.S._activation",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          4,
+          3,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          5
+        ],
+        "prime_damage_bonuses": [
+          0,
+          2,
+          0,
+          5
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "drawn_by_flame",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          2,
+          0,
+          5
+        ],
+        "prime_damage_bonuses": [
+          2,
+          2,
+          0,
+          5
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },{
+        "name": "A.B.S._max_attunement_[Degraded_Dorrosion]",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          3,
+          0,
+          5
+        ],
+        "prime_damage_bonuses": [
+          2,
+          3,
+          0,
+          5
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "gregor_chef": {
     "name": "R.B. Sous-chef Gregor",
     "skills": [
@@ -5118,9 +5289,9 @@ export const sinnerData: SinnerData = {
           0
         ],
         "prime_bonuses": [
+          0,
+          0,
           1,
-          0,
-          0,
           0
         ],
         "prime_damage_bonuses": [
@@ -5131,7 +5302,7 @@ export const sinnerData: SinnerData = {
         ],
         "weak_bonuses": [
           0,
-          -1,
+          0,
           0,
           0
         ],
@@ -5158,9 +5329,9 @@ export const sinnerData: SinnerData = {
           0
         ],
         "prime_bonuses": [
-          1,
           0,
           0,
+          2,
           0
         ],
         "prime_damage_bonuses": [
@@ -5171,7 +5342,7 @@ export const sinnerData: SinnerData = {
         ],
         "weak_bonuses": [
           0,
-          -2,
+          0,
           0,
           0
         ],
@@ -12614,13 +12785,13 @@ export const sinnerData: SinnerData = {
         ],
         "prime_bonuses": [
           0,
-          0,
+          1,
           0,
           0
         ],
         "prime_damage_bonuses": [
           0,
-          0,
+          1,
           0,
           0
         ],
@@ -12687,7 +12858,7 @@ export const sinnerData: SinnerData = {
     "competitor_count": 0
   },
   "rodion_t_corp": {
-    "name": "T Corp. Class 2 Collection StaffRodion",
+    "name": "T Corp. Class 2 Collection Staff Rodion",
     "skills": [
       {
         "name": "prepare_to_collect",
@@ -16858,17 +17029,57 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
-  "yi_sang_w_corp": {
-    "name": "W Corp. L3 Cleanup Agent Yi Sang",
+  "yi_sang_LCE": {
+    "name": "LCE E.G.O::Lantern Yi Sang",
     "skills": [
       {
-        "name": "dimensional_slit",
+        "name": "Though_it_must_be_prefaced_that_E.G.O_gears_are_standardized_equipment",
         "coin_type": "plus",
         "stats": [
-          5,
+          4,
+          3,
+          2,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "when_juxtaposed_with_E.G.O_gear_from_L_Corp.,_depending_on_the_degree_of_attunement_to_the_Abnormality,",
+        "coin_type": "plus",
+        "stats": [
+          8,
           6,
           1,
-          3
+          1
         ],
         "damage_bonuses": [
           0,
@@ -16878,13 +17089,13 @@ export const sinnerData: SinnerData = {
         ],
         "prime_bonuses": [
           0,
-          2,
+          0,
           0,
           0
         ],
         "prime_damage_bonuses": [
           0,
-          2,
+          0,
           0,
           0
         ],
@@ -16902,51 +17113,11 @@ export const sinnerData: SinnerData = {
         ]
       },
       {
-        "name": "energy_cycle",
-        "coin_type": "plus",
+        "name": "the_idiosyncrasies_of_the_source_may_be_utilized_with_greater_flexibility",
+        "coin_type": "minus",
         "stats": [
-          5,
-          5,
-          2,
-          3
-        ],
-        "damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "prime_bonuses": [
-          0,
           1,
-          0,
-          0
-        ],
-        "prime_damage_bonuses": [
-          0,
-          1,
-          0,
-          0
-        ],
-        "weak_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "weak_damage_bonuses": [
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "name": "dimensional_rift",
-        "coin_type": "plus",
-        "stats": [
           5,
-          4,
           3,
           5
         ],
@@ -16957,14 +17128,14 @@ export const sinnerData: SinnerData = {
           0
         ],
         "prime_bonuses": [
+          4,
           0,
-          2,
           0,
           0
         ],
         "prime_damage_bonuses": [
+          4,
           0,
-          2,
           0,
           0
         ],
@@ -16983,7 +17154,7 @@ export const sinnerData: SinnerData = {
       }
     ],
     "has_weak": false,
-    "has_prime": false,
+    "has_prime": true,
     "elite_bias_score_matrix": [],
     "elite_bias_rank_matrix": [],
     "full_deck_score_matrix": [],

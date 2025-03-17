@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: rodion_n_corp_ut4
+name: N Corp. Mittelhammer Rodion
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

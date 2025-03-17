@@ -1,0 +1,102 @@
+!!python/object:sinner.Sinner
+name: Cinq Assoc. East Section 3 Don Quixote
+skills:
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: fa_jin
+  stats:
+  - 3
+  - 4
+  - 2
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 2
+  - 2
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - -1
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: virescent_flame_palm
+  stats:
+  - 4
+  - 4
+  - 3
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 2
+  - 2
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - -1
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: prithee,_let_this_be_an_enlightening_bout
+  stats:
+  - 6
+  - 6
+  - 2
+  - 4
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 2
+  - 2
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - -1
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0

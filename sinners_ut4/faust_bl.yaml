@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: faust_bl_ut4
+name: Blade Lineage Salsu Faust
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

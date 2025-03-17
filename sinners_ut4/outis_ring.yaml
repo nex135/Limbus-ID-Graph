@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: outis_ring_ut4
+name: The Ring Pointilist Student Outis
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

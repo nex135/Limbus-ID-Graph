@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: faust_regret_ut4
+name: Lobotomy E.G.O::Regret Faust
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

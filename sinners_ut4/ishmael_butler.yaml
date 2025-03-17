@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: ishmael_butler_ut4
+name: Edgar Family Butler Ishmael
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

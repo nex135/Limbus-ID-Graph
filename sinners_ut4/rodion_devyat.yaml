@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: rodion_devyat_ut4
+name: Devyat Assoc. North Section 3 Rodion
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

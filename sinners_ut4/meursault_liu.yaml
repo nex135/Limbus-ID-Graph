@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: meursault_liu_ut4
+name: Liu Assoc. South Section 6 Merusault
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

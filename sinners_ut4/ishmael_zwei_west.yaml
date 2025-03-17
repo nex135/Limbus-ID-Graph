@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: ishmael_zwei_west_ut4
+name: Zwei Asssoc. West Section 3 Ishmael
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

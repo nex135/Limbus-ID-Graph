@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: hong_lu_hook_ut4
+name: Hook Office Fixer Hong Lu
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

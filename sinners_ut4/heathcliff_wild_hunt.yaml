@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: heathcliff_wild_hunt_ut4
+name: Wild Hunt Heathcliff
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

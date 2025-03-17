@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: meursault_middle_ut4
+name: The Middle Little Brother Meursault
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

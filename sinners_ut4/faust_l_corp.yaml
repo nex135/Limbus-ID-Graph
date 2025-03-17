@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: faust_l_corp_ut4
+name: Lobotomy Corp. Remnant Faust
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

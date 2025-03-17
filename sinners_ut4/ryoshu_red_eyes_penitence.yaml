@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: ryoshu_red_eyes_penitence_ut4
+name: Lobotomy E.G.O::Red Eyes & Penitence Ryoshu
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

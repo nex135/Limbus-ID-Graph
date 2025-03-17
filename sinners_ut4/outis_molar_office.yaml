@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: outis_molar_office_ut4
+name: Molar Office Fixer Outis
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

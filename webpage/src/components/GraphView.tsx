@@ -233,7 +233,7 @@ const GraphView = ({ selectedCharacter }: GraphViewProps) => {
                 const data = chances.map(row => row[i]);
                 data.push(data[data.length - 1]);
                 return {
-                  label: `SP ${(i * 0.225 + 0.05).toFixed(3)}`,
+                  label: `SP ${(i * 22.5 + -45).toFixed(1)}`,
                   data: data,
                   borderColor: colors[i],
                   backgroundColor: colors[i],

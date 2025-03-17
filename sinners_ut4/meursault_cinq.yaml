@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: meursault_cinq_ut4
+name: Cinq Assoc. West Section 3 Meursault
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

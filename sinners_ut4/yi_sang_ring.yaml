@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: yi_sang_ring_ut4
+name: The Ring Pointilist Student Yi Sang
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

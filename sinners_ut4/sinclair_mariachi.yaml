@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: sinclair_mariachi_ut4
+name: Los Mariachis Jefe Sinclair
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

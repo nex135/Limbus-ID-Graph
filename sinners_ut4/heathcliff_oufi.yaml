@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: heathcliff_outi_ut4
+name: Oufi Assoc. South Section 3 Heathcliff
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

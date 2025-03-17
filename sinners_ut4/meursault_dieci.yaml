@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: meursault_dieci_ut4
+name: Dieci Assoc. South Section 4 Director Meursault
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: rodion_princess_ut4
+name: The Princess of La Manchaland Rodion
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

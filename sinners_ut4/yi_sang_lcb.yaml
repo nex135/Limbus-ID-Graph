@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: yi_sang_lcb_ut4
+name: LCB Sinner Yi Sang
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

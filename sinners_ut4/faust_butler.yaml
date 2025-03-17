@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: faust_butler_ut4
+name: Wuthering Heights Butler Faust
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

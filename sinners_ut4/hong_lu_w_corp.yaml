@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: hong_lu_w_corp_ut4
+name: W Corp L2 Cleanup Agent Hong Lu
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

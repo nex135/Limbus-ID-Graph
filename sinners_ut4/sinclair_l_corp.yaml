@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: sinclair_l_corp_ut4
+name: Lobotomy E.G.O::Red Sheet Sinclair
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

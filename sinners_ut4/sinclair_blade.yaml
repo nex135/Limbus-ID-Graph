@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: sinclair_blade_ut4
+name: Blade Lineage Salsu Sinclair
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

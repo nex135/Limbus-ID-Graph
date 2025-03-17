@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: outis_cinq_ut4
+name: Cinq Assoc. South Section 4 Outis
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

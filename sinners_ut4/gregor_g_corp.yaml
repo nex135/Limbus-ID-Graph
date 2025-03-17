@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: gregor_g_corp_ut4
+name: G Corp. Manager Corporal Gregor
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

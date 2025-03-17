@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: don_quixote_lantern_ut4
+name: Lobotomy E.G.O::Lantern Don Quixote
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

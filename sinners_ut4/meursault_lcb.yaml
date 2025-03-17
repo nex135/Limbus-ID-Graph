@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: meursault_lcb_ut4
+name: LCB Sinner Meursault
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

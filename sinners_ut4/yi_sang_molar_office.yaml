@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: yi_sang_molar_office_ut4
+name: Molar Office Fixer Yi Sang
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: ryoshu_yuro_ut4
+name: District 20 Yurodivy Ryoshu
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

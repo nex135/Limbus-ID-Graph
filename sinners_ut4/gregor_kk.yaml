@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: gregor_kk_ut4
+name: Kurokumo Clan Captain Gregor
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

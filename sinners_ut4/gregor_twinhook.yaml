@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: gregor_twinhook_ut4
+name: Twinhook Pirates First Mate Gregor
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

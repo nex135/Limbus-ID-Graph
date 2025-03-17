@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: don_quixote_middle_ut4
+name: The Middle Little Sister Don Quixote
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

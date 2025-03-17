@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: outis_w_corp_ut4
+name: W Corp. L3 Cleanup Captain Outis
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: ryoshu_chef_ut4
+name: R.B. Chef de Cuisine Ryoshu
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: rodion_dieci_ut4
+name: Dieci Assoc. South Section 4 Rodion
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

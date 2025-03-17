@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: outis_barber_ut4
+name: The Barber of La Manchaland Outis
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

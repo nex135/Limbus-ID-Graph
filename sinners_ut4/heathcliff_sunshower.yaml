@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: heathcliff_sunshower_ut4
+name: Lobotomy E.G.O::Sunshower Heathcliff
 skills:
 - !!python/object:skill.Skill
   coin_type: minus

@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: sinclair_zwei_west_ut4
+name: Zwei Assoc. West Section 3 Sinclair
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

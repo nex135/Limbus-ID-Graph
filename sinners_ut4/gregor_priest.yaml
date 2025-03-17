@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: gregor_priest_ut4
+name: The Priest of La Manchaland Gregor
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

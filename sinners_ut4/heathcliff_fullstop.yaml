@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: heathcliff_fullstop_ut4
+name: Full-Stop Office Fixer Heathcliff
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

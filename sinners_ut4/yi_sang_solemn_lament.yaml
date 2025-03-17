@@ -1,9 +1,9 @@
 !!python/object:sinner.Sinner
-name: yi_sang_solemn_lament_ut4
+name: Lobotomy E.G.O::Solemn Lament Yi Sang
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: celebration)_for_the_departed
+  name: celebration_for_the_departed
   stats:
   - 4
   - 4
@@ -69,7 +69,7 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: goodbye_now_a_sorrow_in_you
+  name: goodbye_now,_a_sorrow_in_you
   stats:
   - 4
   - 3

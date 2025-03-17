@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: outis_magic_bullet_ut4
+name: Lobotomy E.G.O::Magic Bullet Outis
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

@@ -1,22 +1,55 @@
 !!python/object:sinner.Sinner
-name: sinclair_zwei_ut4
+name: Kurokumo Clan Captain Ishmael
 skills:
 - !!python/object:skill.Skill
   coin_type: plus
-  name: baton
+  name: clean_up
+  stats:
+  - 3
+  - 4
+  - 2
+  - 2
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 3
+  - 2
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: sharpened_blade
   stats:
   - 4
   - 6
-  - 1
-  - -2
+  - 2
+  - 3
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 0
-  - 0
+  - 3
+  - 2
   - 0
   - 0
   prime_damage_bonuses:
@@ -36,53 +69,20 @@ skills:
   - 0
 - !!python/object:skill.Skill
   coin_type: plus
-  name: suppress
+  name: ink_over
   stats:
-  - 6
-  - 2
-  - 2
-  - -2
+  - 5
+  - 4
+  - 3
+  - 5
   damage_bonuses:
   - 0
   - 0
   - 0
   - 0
   prime_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  weak_damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-- !!python/object:skill.Skill
-  coin_type: plus
-  name: strong_strike
-  stats:
-  - 7
-  - 13
-  - 1
-  - -2
-  damage_bonuses:
-  - 0
-  - 0
-  - 0
-  - 0
-  prime_bonuses:
-  - 0
-  - 0
+  - 3
+  - 2
   - 0
   - 0
   prime_damage_bonuses:

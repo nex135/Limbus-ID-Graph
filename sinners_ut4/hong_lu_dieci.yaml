@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: hong_lu_dieci_ut4
+name: Dieci Assoc. South Section 4 Hong Lu
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

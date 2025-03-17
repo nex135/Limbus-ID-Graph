@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: rodion_liu_ut4
+name: Liu Assoc. South Section 4 Director Rodion
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

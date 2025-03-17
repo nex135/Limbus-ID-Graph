@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: ryoshu_lccb_ut4
+name: LCCB Assistant Manager Ryoshu
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

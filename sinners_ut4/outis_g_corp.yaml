@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: outis_g_corp_ut4
+name: G Corp. Head Manager Outis
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

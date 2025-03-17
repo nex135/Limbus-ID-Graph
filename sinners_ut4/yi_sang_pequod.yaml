@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: yi_sang_pequod_ut4
+name: The Pequod First Mate Yi Sang
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

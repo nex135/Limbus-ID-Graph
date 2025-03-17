@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: ishmael_r_corp_ut4
+name: R Corp. 4th Pack Reindeer Ishmael
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

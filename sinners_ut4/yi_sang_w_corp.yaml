@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: yi_sang_w_corp_ut4
+name: W Corp. L3 Cleanup Agent Yi Sang
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

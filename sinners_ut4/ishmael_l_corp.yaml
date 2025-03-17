@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: ishmael_l_corp_ut4
+name: Lobotomy E.G.O::Sloshing Ishmael
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

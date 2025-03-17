@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: faust_multicrack_ut4
+name: MutliCrack Office Rep Faust
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

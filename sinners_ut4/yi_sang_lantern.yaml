@@ -1,0 +1,102 @@
+!!python/object:sinner.Sinner
+name: LCE E.G.O::Lantern Yi Sang
+skills:
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: though_it_must_be_prefaced_that_E.G.O_gears_are_standardized_equipment
+  stats:
+  - 4
+  - 3
+  - 2
+  - 0
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: plus
+  name: when_juxtaposed_with_E.G.O_gear_from_l_corp.,_depending_on_the_degree_of_attunement_to_the_abnormality,
+  stats:
+  - 8
+  - 6
+  - 1
+  - 1
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+- !!python/object:skill.Skill
+  coin_type: minus
+  name: the_idiosyncracies_of_the_source_may_be_utilized_with_greater_flexibility
+  stats:
+  - 1
+  - 5
+  - 3
+  - 5
+  damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  prime_bonuses:
+  - 4
+  - 0
+  - 0
+  - 0
+  prime_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0
+  weak_damage_bonuses:
+  - 0
+  - 0
+  - 0
+  - 0

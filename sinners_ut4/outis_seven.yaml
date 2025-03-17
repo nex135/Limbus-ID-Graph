@@ -1,5 +1,5 @@
 !!python/object:sinner.Sinner
-name: outis_seven_ut4
+name: Seven Assoc. South Section 6 Director Outis
 skills:
 - !!python/object:skill.Skill
   coin_type: plus

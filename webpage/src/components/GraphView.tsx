@@ -14,6 +14,7 @@ import {
   Scale,
 } from 'chart.js';
 import { loadSinnerData, type Sinner } from '../services/dataService';
+import { DisplaySettings } from '@mui/icons-material';
 
 ChartJS.register(
   CategoryScale,
@@ -26,6 +27,9 @@ ChartJS.register(
 );
 
 const chartOptions: ChartOptions<'line'> = {
+  interaction:{
+    intersect: true
+  },
   responsive: true,
   maintainAspectRatio: false,
   scales: {
@@ -75,7 +79,8 @@ const chartOptions: ChartOptions<'line'> = {
       },
     },
     tooltip: {
-      backgroundColor: 'rgba(0, 0, 0, 0.8)',
+      enabled: true,
+      backgroundColor: 'rgba(18, 17, 17, 0.8)',
     },
   },
 };

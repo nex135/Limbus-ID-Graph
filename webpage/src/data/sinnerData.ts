@@ -11538,6 +11538,178 @@ export const sinnerData: SinnerData = {
     "full_deck_rank_matrix": [],
     "competitor_count": 0
   },
+  "outis_heishou": {
+    "name": "Heishou Pack - Mao Branch Outis",
+    "skills": [
+      {
+        "name": "blinkstep",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          3,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "perforating_kill",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          6,
+          2,
+          3
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "cursewrit_butcherblade",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          5
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "partial_heishou_mutation",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          7,
+          1,
+          0
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
   "outis_lcb": {
     "name": "LCB Sinner Outis",
     "skills": [
@@ -14100,6 +14272,178 @@ export const sinnerData: SinnerData = {
         ],
         "prime_damage_bonuses": [
           20,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "has_weak": false,
+    "has_prime": false,
+    "elite_bias_score_matrix": [],
+    "elite_bias_rank_matrix": [],
+    "full_deck_score_matrix": [],
+    "full_deck_rank_matrix": [],
+    "competitor_count": 0
+  },
+  "ryoshu_heishou": {
+    "name": "Heishou Pack - Mao Branch Ryoshu",
+    "skills": [
+      {
+        "name": "blinkstep",
+        "coin_type": "plus",
+        "stats": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "as_written",
+        "coin_type": "plus",
+        "stats": [
+          4,
+          6,
+          2,
+          2
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "i'll_gut_you_with_a_curse-engraved_sword",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          4,
+          3,
+          4
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "weak_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "weak_damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "strider,_unleashed._heh",
+        "coin_type": "plus",
+        "stats": [
+          5,
+          8,
+          1,
+          1
+        ],
+        "damage_bonuses": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "prime_bonuses": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "prime_damage_bonuses": [
+          0,
           0,
           0,
           0
